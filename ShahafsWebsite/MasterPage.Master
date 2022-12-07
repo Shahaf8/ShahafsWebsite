@@ -4,9 +4,10 @@
 
 <html>
 <head runat="server">
-    <title></title>
+    <title>אתר</title>
     <!---------Head Place Holder - שומר מקום לחלק העיצובי--------------------->
     <asp:ContentPlaceHolder ID="head" runat="server">
+
     </asp:ContentPlaceHolder>
     <!------------------------------------------------------------------------->
 </head>
