@@ -11,10 +11,9 @@
         
          
             direction: rtl;
-            margin-right 30px;
-            margin-left 30xp;
+            margin-right:30px;
             background-size: 1950px;
-            background-image: url('https://lirp.cdn-website.com/59966bda/dms3rep/multi/opt/LOGOA.b-5b9f5bfb-1920w.png');
+            background-image: url(https://static.vecteezy.com/system/resources/thumbnails/003/240/575/small/plank-woods-background-free-vector.jpg)
             
             }
 
@@ -34,6 +33,13 @@
              }
              nav{
                  align-content:center;
+                 font-size : 200px;
+                 color:white;
+             }
+
+             h2
+             {
+                text-align:left
              }
         </style>
         
@@ -45,11 +51,50 @@
     <body>
             <div>
              <h1> <big> אתר מתכוני אוכל למתחילים </big> </h1>
-                <nav>
+                    <nav style="text-align:left">
+
+                         <a href="Ramen.aspx">ראמן</a>
+            <div></div>
+
+        
+            <a href="Ingera.aspx">אינג'רה</a>
+            <div></div>
+
+        
+            <a href="fish.aspx">דג</a>
+           <div></div>
+
+       
+            <a href="Falafel.aspx">פלאפל</a>
+                        <div></div>
+                    </nav>
+
+                    <nav style="text-align:right">
+                         
+
                     <a href="Foodrecipes.aspx">פשטידת פטריות</a>
-                </nav>
-            </div>
-          <a href="WebForm3.aspx">שקשוקה</a>
+                    <div></div>
+            
+        
+            
+                <a href="Shakshuka.aspx">שקשוקה</a>
+                <div></div>
+  
+     
+            <a href="Hala.aspx">חלה</a>
+            <div></div>
+
+       
+            <a href="Shinezelim.aspx">שניצלים</a>
+                        <div></div>
+                    </nav>
+ 
+        
+
+
+           
+           
+        
         </body>
         </html>
 </asp:Content>
