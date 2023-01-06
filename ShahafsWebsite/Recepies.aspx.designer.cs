@@ -11,7 +11,7 @@ namespace ShahafsWebsite
 {
 
 
-    public partial class Mainpage
+    public partial class WebForm2
     {
     }
 }

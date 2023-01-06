@@ -7,18 +7,28 @@
     <title></title>
     <style>
         h1{
-            font-size: 25px;
-            text-align: center;
-            color: wheat;
+            font-size:40px;
+            color: azure;
+            text-align:center;
         }
-        h2 {
+        h2{
             font-size: 25px;
             text-align: center;
-            color: wheat;
+            color: azure;
+        }
+        h3 {
+            font-size: 25px;
+            text-align: right;
+            color: azure;
+        }
+        h4{
+            font-size:25px;
+            text-align:right;
+            color: azure;
         }
         body {
-            background-image: url('images/Mushroompashtida.jpg');
-            background-size: 2000px;
+            background-image: url('images/Check.jpg');
+            background-size: 1000px;
         }
     </style>
 </head>
@@ -26,11 +36,16 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <html>
 <body>
+    <h1>
+        <big>פשטידת פטריות</big>
+    </h1>
     <b>
         <bold>
-    <h1 style="text-align:right">
-                    :מצרכים
-        <div style="text-decoration-line">
+    <h2 style="text-align:right">
+        <big>:מצרכים</big>
+        </h2>
+                 <h3>
+                     <div style="text-decoration-line">
              2 בצלים גדולים קצוצים
             <br /> 
         (2) סלסלות פטריות שמפיניון טריות חתוכות
@@ -49,25 +64,23 @@
             
         <big>:תיבול </big><br /> כפית שטוחה אבקת מרק, חצי כפית מלח, קמצוץ פלפל שחור
         
-    </h1>
-    <h2>
+                 </h3>
         
-              <big>  אופן הכנה: </big>
+        <h4>
+            <big>  אופן הכנה: </big>
 
         -מטגנים בצל במחבת עם מעט שמן זית עד להזהבה. מוסיפים את הפטריות וממליחים. מבשלים במשך כ-5 דקות עד שהנוזלים מצטמצמים. מסירים מהאש ומצננים.
+        <div></div>
 
         -מעבירים לקערה את תערובת הפטריות והבצל, מוסיפים את יתר החומרים ומערבבים.
 
-        -מכניסים לתנור שחומם מראש ל- 180 מעלות למשך כ- 40 דקות.
+        -מכניסים לתנור שחומם מראש ל- 180 מעלות למשך כ- 40 דקות
+        </h4>
+              
 
         
 
-    </h2>
-    
-    <h3>
-  
-     
-    </h3>
+
             </bold>
         </b>
 </body>

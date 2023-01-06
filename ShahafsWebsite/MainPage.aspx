@@ -1,100 +1,54 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="MainPage.aspx.cs" Inherits="ShahafsWebsite.WebForm2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Mainpage.aspx.cs" Inherits="ShahafsWebsite.Mainpage" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <style>
-
+    <style>
+        h1{
+            text-align:center;
+            font-size: 50;
+            color: white;
+        }
+        body{
+            background-image: url('images/Check.jpg');
+            background-size:2100px;
+        }
+        h2{
+            text-align:right;
+            font-size: 25px;
+            color: white;
+        }
+        h3{
+            text-align:right;
+            font-size:20px;
+            color:white;
+        }
+        h4{
             
-            body{
-        
-         
-            direction: rtl;
-            margin-right:30px;
-            background-size: 1950px;
-            background-image: url(https://static.vecteezy.com/system/resources/thumbnails/003/240/575/small/plank-woods-background-free-vector.jpg)
-            
-            }
-
-            
-             a{
-
-                color:wheat;
-                align-content: right;
-                font-size: 30px;
-                text-align: right;
-
-             }
-             h1{
-                 color: white;
-                 font-size: 50px;
-                 text-align: center             
-             }
-             nav{
-                 align-content:center;
-                 font-size : 200px;
-                 color:white;
-             }
-
-             h2
-             {
-                text-align:left
-             }
-        </style>
-        
-    </head>
-</html>
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <html>
-    <body>
-            <div>
-             <h1> <big> אתר מתכוני אוכל למתחילים </big> </h1>
-                    <nav style="text-align:left">
+    <h1>
+        <big>אתר מתכוני האוכל של ישראל</big>
+    </h1>
+    <div></div>
+    <h2>ברוכים הבאים לאתר</h2>
+    <h3>
+        כאן תוכלו למצוא מתכונים למאכלים הכי נחשקים ואהובים במיוחד בשבילכם
+        <div></div>
+        ארוחת צהריים היא לרוב הארוחה הגדולה ביותר ביום. אפשר לקבל ממנה מנות מאוזנות של ירקות, פחמימות, חלבונים, ושלל ערכים תזונתיים חשובים
+        <div></div>
+        אספנו ברשימה מגוון ארוחות צהריים משביעות וטעימות בשבילכם
+        <div></div>
+        <big>!!!שמונה מתכוני אוכל טעימים בטירוף</big>
+    </h3>
+    <right> <img style="width: 350px" src="https://img.mako.co.il/2015/12/24/shakshuka_i.jpg" alt="404" /> </right>
+        <right> <img style="width: 350px" src="https://realfood.tesco.com/media/images/1400x919-tomato-pasta-6a5a3c8e-f111-490d-805c-9b62fbec8691-0-1400x919.jpg" alt="404" /> </right>
+     <right> <img style="width: 350px" src="https://www.foodfromportugal.com/content/uploads/2012/11/roast-fish-padeiro.jpg" alt="404" /> </right>
+    <right> <img style="width: 350px" src="https://assets.epicurious.com/photos/5732526f1877f76a0e20831c/1:1/w_2560%2Cc_limit/EP_05102016_PeruvianStyleRoastChicken_recipe_.jpg" alt="404" /> </right>
+    <left> <img style="width: 350px" src="https://imaot.co.il/images/Uploads/RecipeImages/57056723102020.jpg" alt="404" /> </left>
+    <left> <img style="width: 350px" src="https://www.foodisgood.co.il/wp-content/uploads/2016/06/baked-schnitzel.jpg" alt="404" /> </left>
+    <left> <img style="width: 350px" src="https://pediasure.co.il/wp-content/uploads/2020/07/%D7%A4%D7%A0%D7%A7%D7%99%D7%99%D7%A7%D7%99%D7%9D.png" alt="404" /> </left>
+    <right> <img style="width: 350px" src="images/pashtidat.jpg" alt="404" /> </right>
 
-                         <a href="Ramen.aspx">ראמן</a>
-            <div></div>
-
-        
-            <a href="Ingera.aspx">אינג'רה</a>
-            <div></div>
-
-        
-            <a href="fish.aspx">דג</a>
-           <div></div>
-
-       
-            <a href="Falafel.aspx">פלאפל</a>
-                        <div></div>
-                    </nav>
-
-                    <nav style="text-align:right">
-                         
-
-                    <a href="Foodrecipes.aspx">פשטידת פטריות</a>
-                    <div></div>
-            
-        
-            
-                <a href="Shakshuka.aspx">שקשוקה</a>
-                <div></div>
-  
-     
-            <a href="Hala.aspx">חלה</a>
-            <div></div>
-
-       
-            <a href="Shinezelim.aspx">שניצלים</a>
-                        <div></div>
-                    </nav>
- 
-        
-
-
-           
-           
-        
-        </body>
-        </html>
+    
+    
 </asp:Content>

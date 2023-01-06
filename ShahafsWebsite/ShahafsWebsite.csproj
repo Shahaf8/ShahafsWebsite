@@ -125,16 +125,36 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Hala.aspx" />
+    <Content Include="images\AnotherBackground.jpg" />
+    <Content Include="images\Avocado.jpg" />
+    <Content Include="images\Background.png" />
+    <Content Include="images\BlackBack.jpg" />
+    <Content Include="images\BlackBackground.jpg" />
+    <Content Include="images\Check.jpg" />
+    <Content Include="images\Check.png" />
+    <Content Include="images\CoolBackgroun.jpg" />
+    <Content Include="images\CuttingBoardBackground.jfif" />
     <Content Include="images\Mushroompashtida.jpg" />
+    <Content Include="images\Newblackbackground.jpg" />
+    <Content Include="images\pashtidat.jpg" />
+    <Content Include="images\Pasta.jpg" />
+    <Content Include="images\TestBackground.jpg" />
+    <Content Include="images\WoodenBackground.jpg" />
     <Content Include="images\סינים.jpg" />
+    <Content Include="Mainpage.aspx" />
     <Content Include="pancake.aspx" />
     <Content Include="MasterPage.Master" />
     <Content Include="Pashtida.aspx" />
-    <Content Include="MainPage.aspx" />
+    <Content Include="Recepies.aspx" />
     <Content Include="Pasta.aspx" />
+    <Content Include="Scudule.aspx" />
     <Content Include="Shakshuka.aspx" />
     <Content Include="Shinezelim.aspx" />
+    <Content Include="SignUp.aspx" />
     <Content Include="WebForm3.aspx" />
+    <Content Include="images\WoodDark.webp" />
+    <Content Include="images\BlackCuttingBoard.webp" />
+    <Content Include="images\Blacktry.webp" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -218,6 +238,13 @@
     <Compile Include="Hala.aspx.designer.cs">
       <DependentUpon>Hala.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Mainpage.aspx.cs">
+      <DependentUpon>Mainpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mainpage.aspx.designer.cs">
+      <DependentUpon>Mainpage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="pancake.aspx.cs">
       <DependentUpon>pancake.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -240,6 +267,13 @@
     <Compile Include="Pasta.aspx.designer.cs">
       <DependentUpon>Pasta.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Scudule.aspx.cs">
+      <DependentUpon>Scudule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Scudule.aspx.designer.cs">
+      <DependentUpon>Scudule.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Shakshuka.aspx.cs">
       <DependentUpon>Shakshuka.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -253,6 +287,13 @@
     </Compile>
     <Compile Include="Shinezelim.aspx.designer.cs">
       <DependentUpon>Shinezelim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -282,12 +323,12 @@
     <Compile Include="Pashtida.aspx.designer.cs">
       <DependentUpon>Pashtida.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MainPage.aspx.cs">
-      <DependentUpon>MainPage.aspx</DependentUpon>
+    <Compile Include="Recepies.aspx.cs">
+      <DependentUpon>Recepies.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MainPage.aspx.designer.cs">
-      <DependentUpon>MainPage.aspx</DependentUpon>
+    <Compile Include="Recepies.aspx.designer.cs">
+      <DependentUpon>Recepies.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm3.aspx.cs">
       <DependentUpon>WebForm3.aspx</DependentUpon>
