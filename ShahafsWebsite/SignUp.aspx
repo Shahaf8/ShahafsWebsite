@@ -107,12 +107,15 @@
                 <td> </td>
             </tr>
             <tr>
-                <td><br /><td>
-                    <td colspan ="2" style ="text-align:center;">
-                        <input type ="submit" name="submit" value ="שלח" />
-                        <input type ="reset" />
-                </td>
+            <td><br /></td>
+            <td colspan="2" style="text-align: center;">
+                <input type="submit" name="submit" value="  שלח  " />
+                <input type="reset" />
+            </td>
+                
             </tr>
         </table>
     </form>
+    <br />
+    <%= st %>
 </asp:Content>

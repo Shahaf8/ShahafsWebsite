@@ -60,7 +60,7 @@
             <th class="dayhour">שישי</th>
         </tr>
         <tr>
-            <td class="dayhour">08:00-08:45</td>
+            <td class="dayhour">06:00-08:00</td>
             <td class="his" rowspan="1">פנקייקים</td>
             <td class="cs" rowspan="1">שקשוקה</td>
             <td class="math" rowspan="1">חלות</td>
