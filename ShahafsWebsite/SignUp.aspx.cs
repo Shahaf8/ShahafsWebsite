@@ -19,6 +19,7 @@ namespace ShahafsWebsite
                 string lName = Request.Form["lName"];
                 string email = Request.Form["email"];
                 string gender = Request.Form["gender"];
+                string hobies = Request.Form["hobies"].ToString();
 
                 st = "<table border='1' dir='ltr'>";
 
@@ -27,6 +28,7 @@ namespace ShahafsWebsite
                 st += $"<tr><td>first name:</td><td>{fName}</td></tr>";
                 st += $" <tr><td>last name:</td><td>{lName}</td></tr>";
                 st += $" <tr><td>email:</td><td>{email}</td></tr>";
+                st += $"<tr><td>hobies:</td><td>{hobies}</td></tr>";
                 if (gender == "male")
                     st += $"<tr><td colspan='2'>{uName} הוא בן </td></tr>";
                 else
