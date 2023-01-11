@@ -18,6 +18,7 @@ namespace ShahafsWebsite
                 string fName = Request.Form["Fname"];
                 string lName = Request.Form["lName"];
                 string email = Request.Form["email"];
+                string gender = Request.Form["gender"];
 
                 st = "<table border='1' dir='ltr'>";
 
