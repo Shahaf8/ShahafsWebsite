@@ -27,6 +27,11 @@ namespace ShahafsWebsite
                 st += $"<tr><td>first name:</td><td>{fName}</td></tr>";
                 st += $" <tr><td>last name:</td><td>{lName}</td></tr>";
                 st += $" <tr><td>email:</td><td>{email}</td></tr>";
+                if (gender == "male")
+                    st += $"<tr><td colspan='2'>{uName} הוא בן </td></tr>";
+                else
+                    st += $"<tr><td colspan='2'>{uName} היא בת </td></tr>";
+                st += "</table>";
 
                 st += "</table>";
             }
