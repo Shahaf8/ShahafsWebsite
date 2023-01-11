@@ -92,7 +92,18 @@
             <tr>
                     <tr>
                 <td>תחביבים</td>
-                <td colspan ="2">checkboxes span = 2</td>
+                <td>
+                    <input type="checkbox" name="hobies" value="Football" />כדורגל&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="hobies" value="Tennis" />טניס&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="hobies" value="CompGame" />משחקי מחשב&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="hobies" value="Dancing" />ריקוד&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="hobies" value="other" />אחר&nbsp;&nbsp;&nbsp;
+                </td>
+                        <td>
+                            <input type="text" id="mHobies" size="30"
+                                style="display: none; background-color: silver; font-weight: bold;"
+                                disabled="disabled" />
+                        </td>
             </tr>
             <tr>
                     <tr>
