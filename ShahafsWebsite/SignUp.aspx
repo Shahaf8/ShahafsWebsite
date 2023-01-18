@@ -2,20 +2,22 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
-        table{
+        table {
             border: 1px solid red;
-            margin : auto ;
-            border-collapse:collapse;
-        }
-        td,th{
-            border: 1px solid navy;
+            margin: auto;
+            border-collapse: collapse;
         }
 
+        td, th {
+            border: 1px solid navy;
+        }
     </style>
+    <script src="Scripts/CheckMyForm.js"></script>
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <form method="post" runat ="server">
-        <table>
+        <form method="post" runat ="server" onsubmit="return chkForm();">       
+           <table>
             <tr>
                 <th></th>
                 
@@ -109,7 +111,7 @@
                
                 <td>
                       <label><input type="checkbox" name="hobies" value="football" checked> כדורגל</label><br />
-                    <label><input type="checkbox" name="hobies" value="tennis" checked> כדורגל</label><br />
+                    <label><input type="checkbox" name="hobies" value="tennis" checked> טניס</label><br />
                       <label><input type="checkbox" name="hobies" value="compGame"> משחקי מחשב</label><br />
                       <label><input type="checkbox" name="hobies" value="dancing> ריקוד</label><br />
                       <label><input type="checkbox" name="hobies" value="other" checked> אחר</label><br />
@@ -139,13 +141,18 @@
             <tr>
             <td><br /></td>
             <td colspan="2" style="text-align: center;">
-                <input type="submit" name="submit" value="  שלח  " />
+                <input type="submit" name="submit" value="  Submit  " />
                 <input type="reset" />
             </td>
                 
             </tr>
         </table>
     </form>
+
     <br />
+    <script>
+        return usernameOK("muName");
+
+    </script>
     <%= st %>
 </asp:Content>
