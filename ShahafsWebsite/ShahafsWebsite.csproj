@@ -147,6 +147,7 @@
     <Content Include="Pashtida.aspx" />
     <Content Include="Recepies.aspx" />
     <Content Include="Pasta.aspx" />
+    <Content Include="Scripts\CheckMyForm.js" />
     <Content Include="Scudule.aspx" />
     <Content Include="Shakshuka.aspx" />
     <Content Include="Shinezelim.aspx" />

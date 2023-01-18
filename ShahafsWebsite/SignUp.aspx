@@ -18,9 +18,10 @@
         <table>
             <tr>
                 <th></th>
-                <th>טופס רישום</th>
+                
                 <th></th>
             </tr>
+            <th>טופס רישום</th>
             <tr>
                 <td>
                     <input type ="text" id ="uName" name ="uName" />
