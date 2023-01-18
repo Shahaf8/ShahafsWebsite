@@ -74,13 +74,19 @@
                 <td></td>
             </tr>
             <tr>
-                <td>שנת לידה</td>
+                <td>שנת לידה </td>
+                <td>
+                    <input type ="date" id ="birthdate" name ="birthdate" />
+                </td>
+
                 <td>INPUT</td>
                 <td>OUTPUT</td>
             </tr>
             <tr>
                 <td>ישוב מגורים</td>
-                <td>INPUT</td>
+                <td>
+                    <input type="text" id ="address" name="address" />
+                </td>
                 <td>OUTPUT</td>
             </tr>
             <tr>
@@ -93,17 +99,13 @@
                     <tr>
                 <td>תחביבים</td>
                 <td>
-                    <input type="checkbox" name="hobies" value="Football" />כדורגל&nbsp;&nbsp;&nbsp;
-                    <input type="checkbox" name="hobies" value="Tennis" />טניס&nbsp;&nbsp;&nbsp;
-                    <input type="checkbox" name="hobies" value="CompGame" />משחקי מחשב&nbsp;&nbsp;&nbsp;
-                    <input type="checkbox" name="hobies" value="Dancing" />ריקוד&nbsp;&nbsp;&nbsp;
-                    <input type="checkbox" name="hobies" value="other" />אחר&nbsp;&nbsp;&nbsp;
-                </td>
-                        <td>
-                            <input type="text" id="mHobies" size="30"
-                                style="display: none; background-color: silver; font-weight: bold;"
-                                disabled="disabled" />
-                        </td>
+                      <label><input type="checkbox" name="hobies" value="football" checked> כדורגל</label><br />
+                    <label><input type="checkbox" name="hobies" value="tennis" checked> טניס</label><br />
+                      <label><input type="checkbox" name="hobies" value="compGame"> משחקי מחשב</label><br />
+                      <label><input type="checkbox" name="hobies" value="dancing> ריקוד</label><br />
+                      <label><input type="checkbox" name="hobies" value="other" checked> אחר</label><br />
+                    </td>
+
             </tr>
             <tr>
                     <tr>
