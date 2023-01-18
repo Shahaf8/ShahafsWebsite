@@ -23,13 +23,13 @@ namespace ShahafsWebsite
 
                 st = "<table border='1' dir='ltr'>";
 
-                st += "<tr><th colspan='2'>הפרטים שהתקבו מהשרת</th></tr>";
+                st += "<tr><th colspan='2'>הפרטים שהתקבלו מהשרת</th></tr>";
                 st += "<tr><td>user name:</td><td>" + uName + "</td></tr>";
                 st += $"<tr><td>first name:</td><td>{fName}</td></tr>";
                 st += $" <tr><td>last name:</td><td>{lName}</td></tr>";
                 st += $" <tr><td>email:</td><td>{email}</td></tr>";
                 st += $"<tr><td>hobies:</td><td>{hobies}</td></tr>";
-                if (gender == "male")
+                if (gender == "female")
                     st += $"<tr><td colspan='2'>{uName} הוא בן </td></tr>";
                 else
                     st += $"<tr><td colspan='2'>{uName} היא בת </td></tr>";

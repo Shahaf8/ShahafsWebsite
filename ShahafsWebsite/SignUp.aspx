@@ -79,28 +79,29 @@
                     <input type ="date" id ="birthdate" name ="birthdate" />
                 </td>
 
-                <td>INPUT</td>
-                <td>OUTPUT</td>
+               
+               
             </tr>
             <tr>
                 <td>ישוב מגורים</td>
                 <td>
                     <input type="text" id ="address" name="address" />
                 </td>
-                <td>OUTPUT</td>
+        
             </tr>
             <tr>
                     <tr>
                 <td>טלפון</td>
-                <td>INPUT</td>
-                <td>OUTPUT</td>
+                <td>
+                    <input type="text" id ="phone number" name="phone number" />
+                </td>
             </tr>
             <tr>
                     <tr>
                 <td>תחביבים</td>
                 <td>
                       <label><input type="checkbox" name="hobies" value="football" checked> כדורגל</label><br />
-                    <label><input type="checkbox" name="hobies" value="tennis" checked> טניס</label><br />
+                    <label><input type="checkbox" name="hobies" value="tennis" checked> כדורגל</label><br />
                       <label><input type="checkbox" name="hobies" value="compGame"> משחקי מחשב</label><br />
                       <label><input type="checkbox" name="hobies" value="dancing> ריקוד</label><br />
                       <label><input type="checkbox" name="hobies" value="other" checked> אחר</label><br />
@@ -110,13 +111,14 @@
             <tr>
                     <tr>
                 <td>סיסמה</td>
-                <td>INPUT + red label</td>
-                <td>OUTPUT</td>
+                <td>
+                    <input type="text" id ="password" name="password" />
+                </td>
             </tr>
             <tr>
                     <tr>
                 <td>בדיקת סיסמה</td>
-                <td>INPUT</td>
+                <td><input type="text" id ="check password" name="check password" /></td>
                 <td></td>
             </tr>
             <tr>
