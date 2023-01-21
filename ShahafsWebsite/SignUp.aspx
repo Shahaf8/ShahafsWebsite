@@ -80,38 +80,15 @@
                 </td>
                 <td></td>
             </tr>
-            <tr>
-                
-                <td>
-                    <input type ="date" id ="birthdate" name ="birthdate" />
-                </td>
-                <td>שנת לידה </td>
 
-               
-               
-            </tr>
             <tr>
-                
-                <td>
-                    <input type="text" id ="address" name="address" />
-                </td>
-                <td>ישוב מגורים</td>
-        
-            </tr>
-            <tr>
-                    <tr>
-                
-                <td>
-                    <input type="text" id ="phone number" name="phone number" />
-                </td>
-                        <td>טלפון</td>
-            </tr>
+                  
             <tr>
                     <tr>
                
                 <td>
                       <label><input type="checkbox" name="hobies" value="football" checked> כדורגל</label><br />
-                    <label><input type="checkbox" name="hobies" value="tennis" checked> טניס</label><br />
+                      <label><input type="checkbox" name="hobies" value="tennis" checked> טניס</label><br />
                       <label><input type="checkbox" name="hobies" value="compGame"> משחקי מחשב</label><br />
                       <label><input type="checkbox" name="hobies" value="dancing> ריקוד</label><br />
                       <label><input type="checkbox" name="hobies" value="other" checked> אחר</label><br />
