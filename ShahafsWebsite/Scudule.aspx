@@ -36,12 +36,18 @@
         }
 
         .law {
-            background-color: lightblue;
+            background-color: hotpink;
         }
 
         .dayhour {
             background-color: lightyellow;
             color:#337ab7
+        }
+        .some{
+            background-color: cornflowerblue;
+        }
+        .pasta{
+            background-color: darkslateblue;
         }
     </style>
 </asp:Content>
@@ -61,33 +67,33 @@
         </tr>
         <tr>
             <td class="dayhour">06:00-08:00</td>
-            <td class="his" rowspan="1">פנקייקים</td>
-            <td class="cs" rowspan="1">שקשוקה</td>
-            <td class="math" rowspan="1">חלות</td>
+            <td class="safrut" rowspan="1">פנקייקים</td>
+            <td class="math" rowspan="1">שקשוקה</td>
+            <td class="cs" rowspan="1">חלות</td>
             <td class="bible" rowspan="1">פשטידת פטריות</td>
-            <td class="law" rowspan="1">שקשוקה</td>
-            <td class="safrut" rowspan="1">דג בתנור</td>
-            <td class="hebrew" rowspan="1">פנקייקים</td>
+            <td class="math" rowspan="1">שקשוקה</td>
+            <td class="hebrew" rowspan="1">דג בתנור</td>
+            <td class="safrut" rowspan="1">פנקייקים</td>
         </tr>
         <tr>
             <td class="dayhour">14:00-16:00</td>
-            <td class="cs" rowspan="1">שניצילם</td>
-            <td class="cs" rowspan="1">פסטה</td>
-            <td class="cs" rowspan="1">פסטה</td>
-            <td class="cs" rowspan="1">דג בתנור</td>
-            <td class="cs" rowspan="1">שניצלים</td>
-            <td class="cs" rowspan="1">עוף בתנור</td>
-            <td class="hebrew" rowspan="1">שניצלים</td>
+            <td class="law" rowspan="1">שניצילם</td>
+            <td class="pasta" rowspan="1">פסטה</td>
+            <td class="pasta" rowspan="1">פסטה</td>
+            <td class="hebrew" rowspan="1">דג בתנור</td>
+            <td class="law" rowspan="1">שניצלים</td>
+            <td class="some" rowspan="1">עוף בתנור</td>
+            <td class="law" rowspan="1">שניצלים</td>
         </tr>
         <tr>
             <td class="dayhour">18:00-20:00</td>
-            <td class="math" rowspan="1">פשטידת פטריות</td>
-            <td class="cs" rowspan="1">דג בתנור</td>
-            <td class="hebrew" rowspan="1">עוף בתנור</td>
-            <td class="hebrew" rowspan="1">פנקייקים</td>
-            <td class="hebrew" rowspan="1">שקשוקה</td>
-            <td class="hebrew" rowspan="1">חלות</td>
-            <td class="hebrew" rowspan="1">פשטידת פטריות</td>
+            <td class="bible" rowspan="1">פשטידת פטריות</td>
+            <td class="hebrew" rowspan="1">דג בתנור</td>
+            <td class="some" rowspan="1">עוף בתנור</td>
+            <td class="safrut" rowspan="1">פנקייקים</td>
+            <td class="math" rowspan="1">שקשוקה</td>
+            <td class="cs" rowspan="1">חלות</td>
+            <td class="bible" rowspan="1">פשטידת פטריות</td>
         </tr>
 
     </table>

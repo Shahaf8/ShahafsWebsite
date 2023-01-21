@@ -87,11 +87,11 @@
                     <tr>
                
                 <td>
-                      <label><input type="checkbox" name="hobies" value="football" checked> כדורגל</label><br />
-                      <label><input type="checkbox" name="hobies" value="tennis" checked> טניס</label><br />
-                      <label><input type="checkbox" name="hobies" value="compGame"> משחקי מחשב</label><br />
-                      <label><input type="checkbox" name="hobies" value="dancing> ריקוד</label><br />
-                      <label><input type="checkbox" name="hobies" value="other" checked> אחר</label><br />
+                      <label><input type="checkbox" name="hobies" value="football" /> כדורגל</label><br />
+                      <label><input type="checkbox" name="hobies" value="tennis" /> טניס</label><br />
+                      <label><input type="checkbox" name="hobies" value="compGame"/> משחקי מחשב</label><br />
+                      <label><input type ="checkbox" name="hobies" value="dancing" /> ריקוד</label><br />
+                      <label><input type="checkbox" name="hobies" value="other" /> אחר</label><br />
                     </td>
                          <td>תחביבים</td>
 

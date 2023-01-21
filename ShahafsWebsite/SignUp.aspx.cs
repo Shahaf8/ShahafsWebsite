@@ -15,7 +15,7 @@ namespace ShahafsWebsite
             if (Request.Form["submit"] != null)
             {
                 string uName = Request.Form["uName"];
-                string fName = Request.Form["Fname"];
+                string fName = Request.Form["fName"];
                 string lName = Request.Form["lName"];
                 string email = Request.Form["email"];
                 string gender = Request.Form["gender"];
