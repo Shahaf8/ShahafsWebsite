@@ -1,4 +1,4 @@
-﻿function checkForm() {
+﻿function chkForm() {
     var uName = document.getElementById("uName").value;
     if (!userNameOK(uName))
         return false;
