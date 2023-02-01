@@ -19,7 +19,7 @@ namespace ShahafsWebsite
                 string uName = Request.Form["uName"];
                 string fName = Request.Form["fName"];
                 string lName = Request.Form["lName"];
-                string email = Request.Form["   email"];
+                string email = Request.Form["email"];
                 string gender = Request.Form["gender"];
                 string hobies = Request.Form["hobies"].ToString();
 

@@ -39,6 +39,38 @@ function userNameOK(name) {
     else
         document.getElementById("mUName").style.display = "none";
     return true;
+
+    //בדיקת קידומת
+    var perfix = document.getElementById("perfix").value;
+    if (perfix.selectedIndex == 0) {
+        document.getElementById("mPhone").value = "לא נבחרה קידומת";
+        document.getElementById("mPhone").style.display = "inline";
+        return false;
+    }
+
+    else
+        document.getElementById("mPhone").style.display = "none";
+
+
+    //בדיקת מס' טלפון
+    var phone = document.getElementById("phoneNum").value;
+    if (phone.length != 7) {
+        document.getElementById("mPhone").value = "מס' טלפון חייב להכיל בדיוק 7 ספרות";
+        document.getElementById("mPhone").style.display = "inline";
+        return false;
+    }
+
+    else
+        document.getElementById("mPhone").style.display = "none";
+
+    if (isNan(phone)) {
+        document.getElementById("mPhone").value = " מס' טלפון חייב להכיל ספרות בלבד";
+        document.getElementById("mPhone").style.display = "inline";
+        return false;
+    }
+
+    else
+        document.getElementById("mPhone").style.display = "none";
 }
 
 
