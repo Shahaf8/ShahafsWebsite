@@ -37,68 +37,74 @@
             <th></th>
         </tr>
         <tr>
-            
-            <td>
-                <input type="text" id="uName" name="uName" /></td>            
             <td>
                 <input type="text" id="mUName" size="50" 
                     style="display: none; background-color: silver; font-weight: bold;"
                     disabled="disabled" />
-                <td>:שם משתמש</td>
-
             </td>
+            <td style ="width:25px">
+                <input type="text" id="uName" name="uName"/>
+
+            </td>            
+            
+            <td>:שם משתמש</td>
         </tr>
         <tr>
-            
-            <td>
-                <input type="text" id="fName" name="fName" /></td>
             <td>
                     <input type="text" id="mfName" size="50" 
                     style="display: none; background-color: silver; font-weight: bold;"
                     disabled="disabled"/>
-                <td>:שם פרטי</td>
-
             </td>
+            <td>
+                <input type="text" id="fName" name="fName" /></td>
+            
+            <td>:שם פרטי</td>
 
         </tr>
         <tr>
-            
-            <td>
-                <input type="text" id="lName" name="lName" /></td>
             <td>
                 <input type="text" id="mlName" size="50"
                     style="display: none; background-color: silver; font-weight: bold;"
                     disabled="disabled" />
-                <td>:שם משפחה</td>
-
             </td>
+            <td>
+                <input type="text" id="lName" name="lName" />
+            </td>
+            
+            <td>:שם משפחה</td>
+
         </tr>
         <tr>
-            
-            <td>
-                <input type="email" name="email" id="email" /></td>
             <td>
                 <input type="text" id="mEmail" size="50"
                     style="display: none; background-color: silver; font-weight: bold;"
                     disabled="disabled" />
-                <td> :כתובת דוא"ל/td>
-
             </td>
+            <td>
+                <input type="email" name="email" id="email" /></td>
+             <td> :כתובת דוא"ל
+
         </tr>
         <tr>
            
-            <td>
+                <td></td>
+                <td>
                 <input type="radio" name="gender" value="male" />זכר
                 <input type="radio" name="gender" value="female" />נקבה
-                 <td>:מין</td>
+                </td>
+                
+                <td>:מין</td>
 
-            </td>
+            
             <td></td>
         </tr>
         <tr>
             
-            <td>COMBO</td>
             <td></td>
+            <td>
+                <label for="birthday"></label>
+<input type="date" id="birthday" name="birthday">
+            </td>
             <td>:שנת לידה</td>
         </tr>
         <tr>
@@ -108,12 +114,11 @@
             <td>:יישוב מגורים</td>
         </tr>
         <tr>
-            <td>:טלפון</td>
             <td>COMBO+Textbox+Redlabel</td>
-            <td></td>       
+            <td></td>  
+             <td>:טלפון</td>
         </tr>
         <tr>
-            <td>תחביבים:</td>
             <td>
                <input type="checkbox" name="hobies" value="football" />כדורגל&nbsp;&nbsp;&nbsp;
                <input type="checkbox" name="hobies" value="Tennis" />טניס&nbsp;&nbsp;&nbsp;
@@ -125,25 +130,29 @@
                 <input type="text" id="mHobies" size="30"
                     style="display: none; background-color: silver; font-weight: bold;"
                     disabled="disabled" />
+
             </td>
+            <td>:תחביבים</td>
+
         </tr>
         <tr>
-            <td>סיסמא:</td>
             <td>INPUT+red label</td>
             <td>OUTPUT</td>
+            <td>:סיסמא</td>
         </tr>
         <tr>
-            <td>בדיקת סיסמא:</td>
+            
             <td>INPUT</td>
             <td></td>
+            <td>:בדיקת סיסמא</td>
         </tr>
         <tr>
             <td> </td>
         </tr>
         <tr> 
             <td><tb /></td>
-            <td> colspan="2" style="text-align: center;">
-                <input type="submit" name="submit" id="submit" value="  שלח  " />
+            <td colspan="2" style="text-align: center;">
+                <input type="submit" name="submit" id="submit" value="  submit  " />
                 <input type="reset" />
             </td>
         </tr>

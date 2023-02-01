@@ -151,6 +151,7 @@
     <Content Include="Scudule.aspx" />
     <Content Include="Shakshuka.aspx" />
     <Content Include="Shinezelim.aspx" />
+    <Content Include="ShowTable.aspx" />
     <Content Include="SignUp.aspx" />
     <Content Include="WebForm3.aspx" />
     <Content Include="images\WoodDark.webp" />
@@ -289,6 +290,13 @@
     </Compile>
     <Compile Include="Shinezelim.aspx.designer.cs">
       <DependentUpon>Shinezelim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowTable.aspx.cs">
+      <DependentUpon>ShowTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowTable.aspx.designer.cs">
+      <DependentUpon>ShowTable.aspx</DependentUpon>
     </Compile>
     <Compile Include="SignUp.aspx.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
