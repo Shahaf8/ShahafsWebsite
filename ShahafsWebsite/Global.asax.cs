@@ -17,5 +17,16 @@ namespace ShahafsWebsite
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
+        void Session_start(object sender, EventArgs e)
+        {
+            Session["admin"] = "no";
+            Session["uName"] = "אזרח";
+            Session["userFName"] = "אזרח";
+        }
+        void Session_End(object sender, EventArgs e)
+        {
+            Session["uName"] = "אזרח";
+            Session["userFname"] = "אזרח";
+        }
     }
 }

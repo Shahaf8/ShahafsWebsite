@@ -141,6 +141,8 @@
     <Content Include="images\TestBackground.jpg" />
     <Content Include="images\WoodenBackground.jpg" />
     <Content Include="images\סינים.jpg" />
+    <Content Include="LoginAdmin.aspx" />
+    <Content Include="Login.aspx" />
     <Content Include="Mainpage.aspx" />
     <Content Include="pancake.aspx" />
     <Content Include="MasterPage.Master" />
@@ -240,6 +242,20 @@
     </Compile>
     <Compile Include="Hala.aspx.designer.cs">
       <DependentUpon>Hala.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginAdmin.aspx.cs">
+      <DependentUpon>LoginAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginAdmin.aspx.designer.cs">
+      <DependentUpon>LoginAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Mainpage.aspx.cs">
       <DependentUpon>Mainpage.aspx</DependentUpon>

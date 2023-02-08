@@ -5,6 +5,7 @@
       <title>HomeSweetFood</title>
       <link rel="stylesheet" href="style.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css%22/%3E" />
+      
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
  <style>
@@ -138,6 +139,7 @@ nav .menu-btn i{
             <li><a href="Mainpage.aspx">בית</a></li>
             <li><a href="Scudule.aspx">מערכת שעות</a></li>
             <li><a href="Recepies.aspx">מתכוני הבית</a></li>
+             <li><a href="Login.aspx">התחבר למשתמש</a></li>
             <li><a href="SignUp.aspx">הרשם לאתר</a></li>
          </ul>
       </nav>

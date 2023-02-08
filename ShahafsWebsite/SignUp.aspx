@@ -146,11 +146,11 @@
         </tr>
         <tr>
             <td>
-               <input type="checkbox" name="hobies" value="football" />כדורגל&nbsp;&nbsp;&nbsp;
-               <input type="checkbox" name="hobies" value="Tennis" />טניס&nbsp;&nbsp;&nbsp;
-               <input type="checkbox" name="hobies" value="compGame" />מחשב משחקי&nbsp;&nbsp;&nbsp;
-               <input type="checkbox" name="hobies" value="dancing" />ריקוד&nbsp;&nbsp;&nbsp;
-               <input type="checkbox" name="hobies" value="other" />אחר&nbsp;&nbsp;&nbsp;
+               <input type="checkbox" name="hobies" value="football" />כדורגל
+               <input type="checkbox" name="hobies" value="Tennis" />טניס
+               <input type="checkbox" name="hobies" value="compGame" />מחשב משחקי
+               <input type="checkbox" name="hobies" value="dancing" />ריקוד
+               <input type="checkbox" name="hobies" value="other" />אחר
             </td>
             <td>
                 <input type="text" id="mHobies" size="30"
