@@ -155,6 +155,7 @@
     <Content Include="Scudule.aspx" />
     <Content Include="Shakshuka.aspx" />
     <Content Include="Shinezelim.aspx" />
+    <Content Include="SelectGmailAndYears.aspx" />
     <Content Include="ShowTable.aspx" />
     <Content Include="SignUp.aspx" />
     <Content Include="WebForm3.aspx" />
@@ -322,6 +323,13 @@
     </Compile>
     <Compile Include="Shinezelim.aspx.designer.cs">
       <DependentUpon>Shinezelim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SelectGmailAndYears.aspx.cs">
+      <DependentUpon>SelectGmailAndYears.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SelectGmailAndYears.aspx.designer.cs">
+      <DependentUpon>SelectGmailAndYears.aspx</DependentUpon>
     </Compile>
     <Compile Include="ShowTable.aspx.cs">
       <DependentUpon>ShowTable.aspx</DependentUpon>

@@ -2,7 +2,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
         table{
-            border: 1px solid red;
             margin : auto ;
             border-collapse:collapse;
             text-align:right;
@@ -37,11 +36,7 @@
             <th></th>
         </tr>
         <tr>
-            <td>
-                <input type="text" id="mUName" size="50" 
-                    style="display: none; background-color: silver; font-weight: bold;"
-                    disabled="disabled" />
-            </td>
+            
             <td style ="width:25px">
                 <input type="text" id="uName" name="uName"/>
 
@@ -50,11 +45,7 @@
             <td>:שם משתמש</td>
         </tr>
         <tr>
-            <td>
-                    <input type="text" id="mfName" size="50" 
-                    style="display: none; background-color: silver; font-weight: bold;"
-                    disabled="disabled"/>
-            </td>
+            
             <td>
                 <input type="text" id="fName" name="fName" /></td>
             
@@ -62,11 +53,7 @@
 
         </tr>
         <tr>
-            <td>
-                <input type="text" id="mlName" size="50"
-                    style="display: none; background-color: silver; font-weight: bold;"
-                    disabled="disabled" />
-            </td>
+            
             <td>
                 <input type="text" id="lName" name="lName" />
             </td>
@@ -75,11 +62,7 @@
 
         </tr>
         <tr>
-            <td>
-                <input type="text" id="mEmail" size="50"
-                    style="display: none; background-color: silver; font-weight: bold;"
-                    disabled="disabled" />
-            </td>
+            
             <td>
                 <input type="email" name="email" id="email" /></td>
              <td> :כתובת דוא"ל
@@ -87,7 +70,7 @@
         </tr>
         <tr>
            
-                <td></td>
+                
                 <td>
                 <input type="radio" name="gender" value="male" />זכר
                 <input type="radio" name="gender" value="female" />נקבה
@@ -95,12 +78,10 @@
                 
                 <td>:מין</td>
 
-            
-            <td></td>
         </tr>
         <tr>
             
-            <td></td>
+            
             <td>
                 <label for="birthday"></label>
 <input type="date" id="birthday" name="birthday">
@@ -109,9 +90,27 @@
         </tr>
         <tr>
             
-            <td>COMBO</td>
-            <td></td>
+            
+            <td>
+                <select name ="city" id="city"
+                <option value="other" > בחר יישוב מגורים</option>
+                <option value="חיפה" >חיפה</option>
+                <option value="תל-אביב" >תל-אביב</option>
+                <option value="ירושלים" >ירושלים</option>
+                <option value="מודיעין" selected>מודיעין</option>
+                <option value="באר-שבע" >באר-שבע</option>
+                <option value="מטולה" >מטולה</option>
+                <option value="צפון" >צפון</option>
+                <option value="מרכז" >מרכז</option>
+                </select>
+            </td>
             <td>:יישוב מגורים</td>
+            
+            <td>
+                <input type="text" name="mCity" id="mCity" style="display:none;
+                            background-color:black; color:white; font-weight:bold;" disabled="disabled"
+                
+            </td>
         </tr>
         <tr>
             <td dir ="ltr">
@@ -133,42 +132,34 @@
                     </select>
                     &nbsp;&nbsp - &nbsp;&nbsp;
                     <input type ="text" name="phoneNum" id ="phoneNum" />
-                <td/>
-                    <td>
-                        <input type="text" id="mPhone" size="30"
-                            style ="display: none; background-color: silver; font-weight:bold;"
-                            disabled ="disabled"/>
                 </td>
-            <td>:טלפון</td>
-            <td></td>  
-             
-
+                    
+             <<td>:טלפון</td>
         </tr>
         <tr>
             <td>
                <input type="checkbox" name="hobies" value="1" />כדורגל&nbsp;&nbsp;&nbsp;
+                <div>
                <input type="checkbox" name="hobies" value="2" />טניס&nbsp;&nbsp;&nbsp;
-               <input type="checkbox" name="hobies" value="3" />מחשב משחקי&nbsp;&nbsp;&nbsp;
+                <div>
+               <input type="checkbox" name="hobies" value="3" />משחקי מחשב&nbsp;&nbsp;&nbsp;
+                <div>
                <input type="checkbox" name="hobies" value="4" />ריקוד&nbsp;&nbsp;&nbsp;
+                <div>
                <input type="checkbox" name="hobies" value="5" />אחר&nbsp;&nbsp;&nbsp;
             </td>
-            <td>
-                <input type="text" id="mHobies" size="30"
-                    style="display: none; background-color: silver; font-weight: bold;"
-                    disabled="disabled" />
-
-            </td>
+            
             <td>:תחביבים</td>
 
         </tr>
         <tr>
-            <td>INPUT+red label</td>
+            
             <td>OUTPUT</td>
             <td>:סיסמא</td>
         </tr>
         <tr>
             
-            <td>INPUT</td>
+            
             <td></td>
             <td>:בדיקת סיסמא</td>
         </tr>
@@ -186,4 +177,5 @@
     </form>
     <br /> 
     <%= st %>
+    <%= msg %>
 </asp:Content>
