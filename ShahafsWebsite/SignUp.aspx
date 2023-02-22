@@ -154,13 +154,18 @@
         </tr>
         <tr>
             
-            <td>OUTPUT</td>
+            <td>
+                 <input type="password" name ="pw" id ="pw" size="20" />
+                <span style="color:red">* 6-10 תווים</span>
+            </td>
             <td>:סיסמא</td>
         </tr>
         <tr>
             
             
-            <td></td>
+            <td>
+                 <input type="password" name ="pw" id ="pw" size="20" />
+            </td>
             <td>:בדיקת סיסמא</td>
         </tr>
         <tr>

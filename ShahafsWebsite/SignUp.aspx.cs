@@ -77,7 +77,7 @@ namespace ShahafsWebsite
                     sqlMsg = sqlInsert;
 
                     Helper.DoQuery(sqlInsert);
-                    msg = "הרשומה נוספה בהצלחה";
+                     msg = "הרשומה נוספה בהצלחה";
                 }
             }
         }
