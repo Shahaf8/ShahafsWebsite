@@ -164,7 +164,7 @@
             
             
             <td>
-                 <input type="password" name ="pw" id ="pw" size="20" />
+                 <input type="password" name ="pwc" id ="pwc" size="20" />
             </td>
             <td>:בדיקת סיסמא</td>
         </tr>

@@ -1,5 +1,7 @@
 ﻿function chkForm() {
     var uName = document.getElementById("uName").value;
+    var pw = document.GetElementById("pw").value;
+    var pwc = document.GetElementById("pwc").value;
     if (!userNameOK(uName))
         return false;
 
@@ -14,7 +16,9 @@
             return false;
         }
         else
-            document.getElementById("mHobies").style.display = "none";
+        document.getElementById("mHobies").style.display = "none";
+    if (CheckPassword(pw, pwc))
+        document.getElementById("pw").value = "סיסמה לא תואמת";
 }
 
 
@@ -111,5 +115,13 @@ if (msg != "") {
 }
 else
     document.getElementById("mYearBorn").style.display = "none";
+function CheckPassword(password,passwordCheck)
+{
+    var msg = "";
+    if (password != passwordCheck) {
+        Document.GetElementById("pw").value = "סיסמה לא תואמת ";
+        return false;
+    }
+}
 
 
