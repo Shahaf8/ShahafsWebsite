@@ -16,12 +16,13 @@ namespace ShahafsWebsite
         {
             if (Request.Form["submit"] != null)
             {
+                // Retrieve form field values
                 string uName = Request.Form["uName"];
                 string fName = Request.Form["fName"];
                 string lName = Request.Form["lName"];
                 string email = Request.Form["email"];
                 string gender = Request.Form["gender"];
-                string hobies = Request.Form["hobies"].ToString();
+                string hobies = Request.Form["hobies"] ?? ""; // Handle null value
 
                 string prefix = "05";
                 string phone = "2435493";
@@ -38,6 +39,7 @@ namespace ShahafsWebsite
                 st += $" <tr><td>last name:</td><td>{lName}</td></tr>";
                 st += $" <tr><td>email:</td><td>{email}</td></tr>";
                 st += $"<tr><td>hobies:</td><td>{hobies}</td></tr>";
+
                 if (gender == "female")
                     st += $"<tr><td colspan='2'>{uName} הוא בן </td></tr>";
                 else
