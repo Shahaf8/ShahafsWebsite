@@ -25,7 +25,7 @@ namespace ShahafsWebsite
                 string tableName = "usersTbl";
 
                 sqlSelect = $"select * from {tableName}";
-                sqlSelect = " where email like '%gmail%' and city in(N'מטולה',N'הרצליה',N'מרכז')";
+                sqlSelect += " where email like '%gmail%' and city in(N'מטולה',N'הרצליה',N'מרכז')";
                 DataTable table = Helper.ExecuteDataTable(sqlSelect);
                 int length = table.Rows.Count;
                 if (length == 0)

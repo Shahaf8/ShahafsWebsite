@@ -14,7 +14,7 @@
 
         h2, h3, h4, div {
             text-align: right;
-        }
+        } 
     </style>
     <script src="Scripts/CheckMyForm.js"></script>
 </asp:Content>
