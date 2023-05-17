@@ -12,10 +12,10 @@
         }
 
         .safrut {
-            background-color: honeydew;
+            background-color: darkkhaki;
         }
 
-        .his {
+        .history {
             background-color: lightpink;
         }
 
@@ -39,15 +39,30 @@
             background-color: hotpink;
         }
 
-        .dayhour {
+        . {
             background-color: lightyellow;
             color:#337ab7
         }
-        .some{
+        .tab{
             background-color: cornflowerblue;
         }
-        .pasta{
+        .pe{
             background-color: darkslateblue;
+        }
+        .physics{
+            background-color:aquamarine;
+        }
+        .english{
+            background-color:blueviolet;
+        }
+        .cars{
+            background-color:gold;
+        }
+        .edu{
+            background-color:violet;
+        }
+        .money{
+            background-color:tomato;
         }
     </style>
 </asp:Content>
@@ -57,43 +72,91 @@
         </tr>
         <tr>
             <th class="dayhour">שעה</th>
-            <th class="dayhour">שבת</th>
-            <th class="dayhour">ראשון</th>
-            <th class="dayhour">שני</th>
-            <th class="dayhour">שלישי</th>
-            <th class="dayhour">רביעי</th>
             <th class="dayhour">חמישי</th>
-            <th class="dayhour">שישי</th>
+            <th class="dayhour">רביעי</th>
+            <th class="dayhour">שלישי</th>
+            <th class="dayhour">שני</th>
+            <th class="dayhour">ראשון</th>
         </tr>
         <tr>
-            <td class="dayhour">06:00-08:00</td>
-            <td class="safrut" rowspan="1">פנקייקים</td>
-            <td class="math" rowspan="1">שקשוקה</td>
-            <td class="cs" rowspan="1">חלות</td>
-            <td class="bible" rowspan="1">פשטידת פטריות</td>
-            <td class="math" rowspan="1">שקשוקה</td>
-            <td class="hebrew" rowspan="1">דג בתנור</td>
-            <td class="safrut" rowspan="1">פנקייקים</td>
+            <td class="dayhour">08:00-08:45</td>
+            <td class="pe" rowspan="1">חינוך גופני</td>
+            <td class="hebrew" rowspan="1">עברית</td>
+            <td class="math" rowspan="1">מתמטיקה</td>
+            <td class="money" rowspan="1">חינוך פיננסי</td>
+            <td class="safrut" rowspan="1">ספרות</td>
         </tr>
         <tr>
-            <td class="dayhour">14:00-16:00</td>
-            <td class="law" rowspan="1">שניצילם</td>
-            <td class="pasta" rowspan="1">פסטה</td>
-            <td class="pasta" rowspan="1">פסטה</td>
-            <td class="hebrew" rowspan="1">דג בתנור</td>
-            <td class="law" rowspan="1">שניצלים</td>
-            <td class="some" rowspan="1">עוף בתנור</td>
-            <td class="law" rowspan="1">שניצלים</td>
+            <td class="dayhour">08:45-09:30</td>
+            <td class="history" rowspan="1">היסטוריה</td>
+            <td class="law" rowspan="1">השכלה כללית-אזרחות</td>
+            <td class="math" rowspan="1">מתמטיקה</td>
+            <td class="bible" rowspan="1">תנ"ך</td>
+            <td class="hebrew" rowspan="1">עברית</td>
         </tr>
         <tr>
-            <td class="dayhour">18:00-20:00</td>
-            <td class="bible" rowspan="1">פשטידת פטריות</td>
-            <td class="hebrew" rowspan="1">דג בתנור</td>
-            <td class="some" rowspan="1">עוף בתנור</td>
-            <td class="safrut" rowspan="1">פנקייקים</td>
-            <td class="math" rowspan="1">שקשוקה</td>
-            <td class="cs" rowspan="1">חלות</td>
-            <td class="bible" rowspan="1">פשטידת פטריות</td>
+            <td class="dayhour">09:45-10:30</td>
+            <td class="math" rowspan="1">מתמטיקה</td>
+            <td class="physics" rowspan="1">פיסיקה</td>
+            <td class="english" rowspan="1">אנגלית</td>
+            <td class="bible" rowspan="1">תנ"ך</td>
+            <td class="hebrew" rowspan="1">עברית</td>
+        </tr>
+        <tr>
+            <td class="dayhour">10:30-11:10</td>
+            <td class="math" rowspan="1">מתמטיקה</td>
+            <td class="physics" rowspan="1">פיסיקה</td>
+            <td class="english" rowspan="1">אנגלית</td>
+            <td class="pe" rowspan="1">חינוך גופני</td>
+            <td class="edu" rowspan="1">חינוך/חברה</td>
+        </tr>
+        <tr>
+            <td class="dayhour">11:30-12:15</td>
+            <td class="cs" rowspan="1">מדעי המחשב</td>
+            <td class="english" rowspan="1">אנגלית</td>
+            <td class="history" rowspan="1">היסטוריה</td>
+            <td class="history" rowspan="1">היסטוריה</td>
+            <td class="english" rowspan="1">אנגלית</td>
+        </tr>
+        <tr>
+            <td class="dayhour">12:15-13:00</td>
+            <td class="cs" rowspan="1">מדעי המחשב</td>
+            <td class="cars" rowspan="1">חינוך תעבורתי</td>
+            <td class="cs" rowspan="1">מדעי המחשב</td>
+            <td class="math" rowspan="1">מתמטיקה</td>
+            <td class="english" rowspan="1">אנגלית</td>
+        </tr>
+        <tr>
+            <td class="dayhour">13:15-14:00</td>
+            <td class="" rowspan="1"></td>
+            <td class="safrut" rowspan="1">ספרות</td>
+            <td class="cs" rowspan="1">מדעי המחשב</td>
+            <td class="math" rowspan="1">מתמטיקה</td>
+            <td class="" rowspan="1"></td>
+        </tr>
+        <tr>
+            <td class="dayhour">14:00-14:40</td>
+            <td class="" rowspan="1"></td>
+            <td class="tab" rowspan="1">אינטרנט/תב"א</td>
+            <td class="" rowspan="1"></td>
+            <td class="cs" rowspan="1">מדעי המחשב</td>
+            <td class="" rowspan="1"></td>
+        </tr>
+        <tr>
+            <td class="dayhour">14:50-15:35</td>
+            <td class="" rowspan="1"></td>
+            <td class="tab" rowspan="1">אינטרנט/תב"א</td>
+            <td class="" rowspan="1"></td>
+            <td class="cs" rowspan="1">מדעי המחשב</td>
+            <td class="" rowspan="1"></td>
+        </tr>
+        <tr>
+            <td class="dayhour">15:35-16:10</td>
+            <td class="" rowspan="1"></td>
+            <td class="tab" rowspan="1">אינטרנט/תב"א</td>
+            <td class="" rowspan="1"></td>
+            <td class="" rowspan="1"></td>
+            <td class="" rowspan="1"></td>
         </tr>
 
     </table>
