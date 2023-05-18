@@ -15,6 +15,14 @@
         h2, h3, h4, div {
             text-align: right;
         } 
+
+        table {
+            margin: 50px auto;
+            border-collapse: collapse;
+            text-align: right;
+            width: 15%;
+        }
+
     </style>
     <script src="Scripts/CheckMyForm.js"></script>
 </asp:Content>
@@ -36,7 +44,6 @@
             text-align: right;
         }
 
-        /* CSS for aligning the message at the bottom-middle */
         .message {
             position: fixed;
             bottom: 0;
