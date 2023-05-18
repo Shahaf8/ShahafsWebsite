@@ -65,134 +65,155 @@
                 <th></th>
             </tr>
             <tr>
-                <td style="width:25px">
+                <td>שם משתמש</td>
+                <td>
                     <input type="text" id="uName" name="uName" />
                 </td>
-                <td><label for="uName">:שם משתמש</label></td>
-            </tr>
-            <tr>
                 <td>
-                    <input type="text" id="fName" name="fName" />
+                    <input type="text" id="mUName" size="50"
+                        style="display: none; background-color: silver; font-weight: bold;"
+                        disabled="disabled" />
+
                 </td>
-                <td><label for="fName">:שם פרטי</label></td>
             </tr>
             <tr>
+                <td>שם פרטי</td>
                 <td>
-                    <input type="text" id="lName" name="lName" />
+                    <input type="text" name="fName" id="fName" />
                 </td>
-                <td><label for="lName">:שם משפחה</label></td>
+                <td>
+                    <input type="text" id="mFName" size="50"
+                        style="display: none; background-color: silver; font-weight: bold;"
+                        disabled="disabled" />
+
+                </td>
             </tr>
             <tr>
+                <td>שם משפחה</td>
+                <td>
+                    <input type="text" name="lName" id="lName" />
+                </td>
+                <td>
+                    <input type="text" id="mLName" size="50"
+                        style="display: none; background-color: silver; font-weight: bold;"
+                        disabled="disabled" />
+
+                </td>
+            </tr>
+            <tr>
+                <td>כתובת דוא"ל</td>
                 <td>
                     <input type="email" name="email" id="email" />
                 </td>
-                <td><label for="email">:כתובת דוא"ל</label></td>
+                <td>
+                    <input type="text" id="mEmail" size="50"
+                        style="display: none; background-color: silver; font-weight: bold;"
+                        disabled="disabled" />
+
+                </td>
             </tr>
             <tr>
+                <td>מין</td>
                 <td>
                     <input type="radio" name="gender" value="male" />זכר
-                    <input type="radio" name="gender" value="female" />נקבה
+                    <input type="radio" name="gender" value="female" checked />נקבה
                 </td>
-                <td><label>:מין</label></td>
+                <td></td>
             </tr>
             <tr>
+                <td>שנת לידה</td>
                 <td>
-                    <label for="birthday"></label>
-                    <input type="date" id="birthday" name="birthday">
+                    <input type="text" name="yearBorn" id="yearBorn" /></td>
+                <td>
+                    <input type="text" id="mYearBorn" size="50"
+                        style="display: none; background-color: silver; font-weight: bold;"
+                        disabled="disabled" />
                 </td>
-                <td><label for="birthday">:שנת לידה</label></td>
             </tr>
             <tr>
+                <td>ישוב מגורים</td>
                 <td>
                     <select name="city" id="city">
-                        <option value="other" selected>בחר יישוב מגורים
+                        <option value="other" selected>בחר ישוב מגורים</option>
                         <option value="חיפה">חיפה</option>
                         <option value="תל-אביב">תל-אביב</option>
                         <option value="ירושלים">ירושלים</option>
-                        <option value="מודיעין">מודיעין</</option>
+                        <option value="מודיעין">מודיעין</option>
                         <option value="באר-שבע">באר-שבע</option>
                         <option value="מטולה">מטולה</option>
+                        <option value="הרצליה">הרצליה</option>
                         <option value="צפון">צפון</option>
                         <option value="מרכז">מרכז</option>
+                        <option value="דרום">דרום</option>
                     </select>
                 </td>
-                <td>:יישוב מגורים</td>
-            </tr>
-            <tr>
                 <td>
-                    <input type="text" name="mCity" id="mCity" style="display:none;
-                            background-color:black; color:white; font-weight:bold;" disabled="disabled">
+                    <input type="text" id="mCity" size="50"
+                        style="display: none; background-color: silver; font-weight: bold;"
+                        disabled="disabled" />
                 </td>
             </tr>
             <tr>
-                <td dir="ltr">
-                    <select name="prefix" id="prefix">
-                        <option value="choose">בחר</option>
-                        <option value="050">050</option>
-                        <option value="052">052</option>
-                        <option value="053">053</option>
-                        <option value="054">054</option>
-                        <option value="055">055</option>
-                        <option value="057">057</option>
-                        <option value="058">058</option>
-                        <option value="02">02</option>
-                        <option value="03">03</option>
-                        <option value="04">04</option>
-                        <option value="08">08</option>
-                        <option value="09">09</option>
-                        <option value="077">077</option>
-                    </select>
-                    &nbsp;&nbsp; - &nbsp;&nbsp;
-                    <input type="text" name="phoneNum" id="phoneNum" />
+                <td>מס' טלפון</td>
+                <td style="direction: ltr; text-align: right;"><span style="color: red;">7 ספרות *</span>
+                    <select name="prefix" id="prefix"><%=prfx %></select><input type="text" name="phoneNum" id="phoneNum" />
                 </td>
-                <td>:טלפון</td>
-            </tr>
-            <tr>
                 <td>
-                    <input type="checkbox" name="hobbies" value="1" />כדורגל&nbsp;&nbsp;&nbsp;</div>
-                </td>
-                <td>:תחביבים</td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="checkbox" name="hobbies" value="2" />טניס&nbsp;&nbsp;&nbsp;</div>
+                    <input type="text" id="mPhone" size="30"
+                        style="display: none; background-color: silver; font-weight: bold;"
+                        disabled="disabled" />
                 </td>
             </tr>
             <tr>
+                <td>תחביבים</td>
                 <td>
-                    <input type="checkbox" name="hobbies" value="3" />משחקי מחשב&nbsp;&nbsp;&nbsp;</div>
+                    <input type="checkbox" name="hobies" value="1" />כדורגל&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="hobies" value="2" />טניס&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="hobies" value="3" />משחקי מחשב&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="hobies" value="4" />ריקוד&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="hobies" value="5" />אחר&nbsp;&nbsp;&nbsp;
+                </td>
+                <td>
+                    <input type="text" id="mHobies" size="30"
+                        style="display: none; background-color: silver; font-weight: bold;"
+                        disabled="disabled" />
                 </td>
             </tr>
             <tr>
+                <td>סיסמא</td>
                 <td>
-                    <input type="checkbox" name="hobbies" value="4" />ריקוד&nbsp;&nbsp;&nbsp;</div>
+                    <input type="password" name="pw" id="pw" size="10"
+                        maxlength="10"/>
+                    <span style="color: red;">*6-10 תווים</span>
+                </td>
+                <td>
+                    <input type="text" id="mPw" size="30"
+                        style="display: none; background-color: silver; color: red; font-weight: bold;"
+                        disabled="disabled" />
                 </td>
             </tr>
             <tr>
+                <td>בדיקת סיסמא</td>
                 <td>
-                    <input type="checkbox" name="hobbies" value="5" />אחר&nbsp;&nbsp;&nbsp;</div>
+                    <input type="password" name="pw1" id="pw1" size="10"
+                        maxlength="10" />
                 </td>
-            </tr>
-            <tr>
                 <td>
-                    <input type="password" name="pw" id="pw" size="20" />
-                    <span style="color:red">* 6-10 תווים</span>
+                    <input type="text" id="mPw1" size="30"
+                        style="display: none; background-color: silver; color: red; font-weight: bold;"
+                        disabled="disabled" />
                 </td>
-                <td>:סיסמא</td>
-            </tr>
-        <td>
-                    <input type="password" name="pwConfirm" id="pwConfirm" size="20" />
-                </td>
-                <td>:בדיקת סיסמא</td>
             </tr>
             <tr>
                 <td></td>
             </tr>
             <tr>
-                <td><tb /></td>
+                <td>
+                    <br />
+                </td>
                 <td colspan="2" style="text-align: center;">
-                    <input type="submit" name="submit" id="submit" value="שלח" />
-                    <input type="reset" value="איפוס" />
+                    <input type="submit" name="submit" value="שלח" />
+                    <input type="reset" />
                 </td>
             </tr>
         </table>
