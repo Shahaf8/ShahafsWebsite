@@ -8,20 +8,21 @@ using System.Web.UI.WebControls;
 
 namespace ShahafsWebsite
 {
-    public partial class ShowTable : System.Web.UI.Page
+    public partial class DeleteUser : System.Web.UI.Page
     {
         public string st = "", msg = "", sqlSelect = "";
+        public string userToDelete = "";
         protected void Page_Load(object sender, EventArgs e)
         {
-            //if (Session["admin"].ToString() == "no")
-            //{
-            //    msg += "<div style='text-align: center; color: red;'>";
-            //    msg += "<h3>אינך מנהל! אין לך הרשאה לצפות בדף זה</h3>";
-            //    msg += "<a href= 'Mainpage.aspx'>[המשך]</a>";
-            //    msg += "</div>";
-            //}
-            //else
-            //{
+            if (Session["admin"].ToString() == "no")
+            {
+                msg += "<div style='text-align: center; color: red;'>";
+                msg += "<h3> אינך מנהל ! אין לך אפשרות לצפות בדף זה</h3>";
+                msg += "<a href='MyFavoriteFootballClub.aspx'>[ המשך ]</a>";
+            }
+
+            else
+            {
                 string tableName = "usersTbl";
 
                 sqlSelect = $"select * from {tableName}";
@@ -35,20 +36,21 @@ namespace ShahafsWebsite
                 {
                     //---  שורת כותרת הטבלה ---
                     st += "<tr>";
-                    st += "<th>שם משתמש</th>\n";
-                    st += "<th>שם פרטי</th>\n";
-                    st += "<th>שם משפחה</th>\n";
-                    st += "<th>דוא'ל</th>\n";
-                    st += "<th>שנת לידה</th>\n";
-                    st += "<th>מגדר</th>\n";
-                    st += "<th>מספר טלפון</th>\n";
-                    st += "<th>עיר</th>\n";
-                    st += "<th>כדורגל</th>\n";
-                    st += "<th>טניס</th>\n";
-                    st += "<th>משחקי מחשב</th>\n";
-                    st += "<th>ריקוד</th>\n";
-                    st += "<th>אחר</th>\n";
-                    st += "<th>סיסמה</th>\n";
+                    st += "<th>שם משתמש</th>";
+                    st += "<th>שם פרטי</th>";
+                    st += "<th>שם משפחה</th>";
+                    st += "<th>דוא'ל</th>";
+                    st += "<th>שנת לידה</th>";
+                    st += "<th>מגדר</th>";
+                    st += "<th>מס' טלפון</th>";
+                    st += "<th>עיר</th>";
+                    st += "<th>כדורגל</th>";
+                    st += "<th>מחשבים</th>";
+                    st += "<th>מוסיקה</th>";
+                    st += "<th>טלוויזיה</th>";
+                    st += "<th>סוסים</th>";
+                    st += "<th>סיסמא</th>";
+                    st += "<th></th>";
                     st += "</tr>";
 
                     //--- כל הרשומות מהטבלה הוירטואלית ---
@@ -57,13 +59,11 @@ namespace ShahafsWebsite
                         st += "<tr>";
                         st += $"<td>{table.Rows[i]["uName"]}</td>";
                         st += $"<td class='right'>{table.Rows[i]["fName"]}</td>";
-                        //gender,city,hob1,hob2,hob3,hob4,hob5,pw
-                        st += $"<td class = 'right'>{table.Rows[i]["lname"]}</td>";
-                        st += $"<td class = 'right'>{table.Rows[i]["lname"]}</td>";
-                        st += $"<td class = 'left'>{table.Rows[i]["email"]}</td>";
+                        st += $"<td class='right'>{table.Rows[i]["lName"]}</td>";
+                        st += $"<td class='left'>   {table.Rows[i]["email"]}</td>";
                         st += $"<td>{table.Rows[i]["yearBorn"]}</td>";
                         st += $"<td>{table.Rows[i]["gender"]}</td>";
-
+                        st += $"<td class='right'>{table.Rows[i]["prefix"]} - {table.Rows[i]["phone"]}</td>";
                         st += $"<td class='right'>{table.Rows[i]["city"]}</td>";
                         st += $"<td>{table.Rows[i]["hob1"]}</td>";
                         st += $"<td>{table.Rows[i]["hob2"]}</td>";
@@ -71,8 +71,10 @@ namespace ShahafsWebsite
                         st += $"<td>{table.Rows[i]["hob4"]}</td>";
                         st += $"<td>{table.Rows[i]["hob5"]}</td>";
                         st += $"<td>{table.Rows[i]["pw"]}</td>";
-
-                        st += "</tr>";
+                        userToDelete = table.Rows[i]["uName"].ToString();
+                        st += "<td style = 'text - align: center; border: 1px solid black;'>";
+                        st += $"<a href = 'DeleteRecord.aspx?uName={userToDelete}' class ='bth-outline-danger btn-sm'>מחק</a>";
+                        st += "</td></tr>";
                     }
 
                     msg = $"נמצאו  {length} משתמשים";
@@ -80,4 +82,4 @@ namespace ShahafsWebsite
             }
         }
     }
-//}
+}

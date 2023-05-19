@@ -113,6 +113,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Chicken.aspx" />
+    <Content Include="DeleteRecord.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fish.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -154,11 +155,14 @@
     <Content Include="Pasta.aspx" />
     <Content Include="Scripts\CheckMyForm.js" />
     <Content Include="Scudule.aspx" />
+    <Content Include="SelectByName.aspx" />
     <Content Include="Shakshuka.aspx" />
     <Content Include="Shinezelim.aspx" />
     <Content Include="SelectGmailAndYears.aspx" />
+    <Content Include="DeleteUser.aspx" />
     <Content Include="ShowTable.aspx" />
     <Content Include="SignUp.aspx" />
+    <Content Include="SimpleQuery.aspx" />
     <Content Include="WebForm3.aspx" />
     <Content Include="images\WoodDark.webp" />
     <Content Include="images\BlackCuttingBoard.webp" />
@@ -237,6 +241,13 @@
     <Compile Include="Chicken.aspx.designer.cs">
       <DependentUpon>Chicken.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DeleteRecord.aspx.cs">
+      <DependentUpon>DeleteRecord.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteRecord.aspx.designer.cs">
+      <DependentUpon>DeleteRecord.aspx</DependentUpon>
+    </Compile>
     <Compile Include="fish.aspx.cs">
       <DependentUpon>fish.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -311,6 +322,13 @@
     <Compile Include="Scudule.aspx.designer.cs">
       <DependentUpon>Scudule.aspx</DependentUpon>
     </Compile>
+    <Compile Include="SelectByName.aspx.cs">
+      <DependentUpon>SelectByName.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SelectByName.aspx.designer.cs">
+      <DependentUpon>SelectByName.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Shakshuka.aspx.cs">
       <DependentUpon>Shakshuka.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -332,6 +350,13 @@
     <Compile Include="SelectGmailAndYears.aspx.designer.cs">
       <DependentUpon>SelectGmailAndYears.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DeleteUser.aspx.cs">
+      <DependentUpon>DeleteUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteUser.aspx.designer.cs">
+      <DependentUpon>DeleteUser.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ShowTable.aspx.cs">
       <DependentUpon>ShowTable.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -345,6 +370,13 @@
     </Compile>
     <Compile Include="SignUp.aspx.designer.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleQuery.aspx.cs">
+      <DependentUpon>SimpleQuery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimpleQuery.aspx.designer.cs">
+      <DependentUpon>SimpleQuery.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>

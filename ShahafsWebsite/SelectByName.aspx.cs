@@ -8,7 +8,7 @@ using System.Web.UI.WebControls;
 
 namespace ShahafsWebsite
 {
-    public partial class ShowTable : System.Web.UI.Page
+    public partial class SelectByName : System.Web.UI.Page
     {
         public string st = "", msg = "", sqlSelect = "";
         protected void Page_Load(object sender, EventArgs e)
@@ -25,9 +25,8 @@ namespace ShahafsWebsite
                 string tableName = "usersTbl";
 
                 sqlSelect = $"select * from {tableName}";
-
+                sqlSelect += " where fName like N'א%'";
                 DataTable table = Helper.ExecuteDataTable(sqlSelect);
-
                 int length = table.Rows.Count;
                 if (length == 0)
                     msg = "הטבלה ריקה. לא נרשמו משתמשים";
@@ -43,11 +42,11 @@ namespace ShahafsWebsite
                     st += "<th>מגדר</th>\n";
                     st += "<th>מספר טלפון</th>\n";
                     st += "<th>עיר</th>\n";
+                    st += "<th>מחשבים</th>\n";
                     st += "<th>כדורגל</th>\n";
-                    st += "<th>טניס</th>\n";
-                    st += "<th>משחקי מחשב</th>\n";
-                    st += "<th>ריקוד</th>\n";
-                    st += "<th>אחר</th>\n";
+                    st += "<th>מוסיקה</th>\n";
+                    st += "<th>טלוויזיה</th>\n";
+                    st += "<th>סוסים</th>\n";
                     st += "<th>סיסמה</th>\n";
                     st += "</tr>";
 
