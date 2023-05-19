@@ -60,7 +60,7 @@ namespace ShahafsWebsite
                 st += $"<tr><td>city:</td><td>{city}</td></tr>";
                 st += $"<tr><td>yearBorn:</td><td>{yBorn}</td></tr>";
                 st += $"<tr><td>password:</td><td>{pw}</td></tr>";
-                if (gender == "male")
+                if (gender == "female")
                 {
                     st += $"<tr><td colspan='2'>{uName} הוא בן </td></tr>";
                 }

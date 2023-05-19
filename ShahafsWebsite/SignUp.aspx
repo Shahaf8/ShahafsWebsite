@@ -29,6 +29,11 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <form method="post" runat="server" onsubmit="return chkForm();">
          <style>
+
+             table{
+                 width: 15%;
+             }
+
         table {
             margin: auto;
             border-collapse: collapse;
@@ -60,15 +65,18 @@
 </asp:Content>
         <table>
             <tr>
-                <th></th>
                 <th>טופס רישום</th>
+                <th></th>
                 <th></th>
             </tr>
             <tr>
-                <td>שם משתמש</td>
+                
                 <td>
                     <input type="text" id="uName" name="uName" />
                 </td>
+
+                <td>שם משתמש</td> 
+
                 <td>
                     <input type="text" id="mUName" size="50"
                         style="display: none; background-color: silver; font-weight: bold;"
@@ -77,10 +85,13 @@
                 </td>
             </tr>
             <tr>
-                <td>שם פרטי</td>
+                
                 <td>
                     <input type="text" name="fName" id="fName" />
                 </td>
+
+                <td>שם פרטי</td>
+
                 <td>
                     <input type="text" id="mFName" size="50"
                         style="display: none; background-color: silver; font-weight: bold;"
@@ -89,10 +100,13 @@
                 </td>
             </tr>
             <tr>
-                <td>שם משפחה</td>
+               
                 <td>
                     <input type="text" name="lName" id="lName" />
                 </td>
+
+                 <td>שם משפחה</td>
+
                 <td>
                     <input type="text" id="mLName" size="50"
                         style="display: none; background-color: silver; font-weight: bold;"
@@ -101,10 +115,13 @@
                 </td>
             </tr>
             <tr>
-                <td>כתובת דוא"ל</td>
+                
                 <td>
                     <input type="email" name="email" id="email" />
                 </td>
+
+                <td>כתובת דוא"ל</td>
+
                 <td>
                     <input type="text" id="mEmail" size="50"
                         style="display: none; background-color: silver; font-weight: bold;"
@@ -113,25 +130,33 @@
                 </td>
             </tr>
             <tr>
-                <td>מין</td>
+                
                 <td>
                     <input type="radio" name="gender" value="male" />זכר
                     <input type="radio" name="gender" value="female" checked />נקבה
                 </td>
+
+                <td>מין</td>
+
                 <td></td>
             </tr>
             <tr>
-                <td>שנת לידה</td>
+                
                 <td>
                     <input type="text" name="yearBorn" id="yearBorn" /></td>
+                <td>שנת לידה</td>
                 <td>
+
                     <input type="text" id="mYearBorn" size="50"
                         style="display: none; background-color: silver; font-weight: bold;"
                         disabled="disabled" />
                 </td>
+
+                
+
             </tr>
             <tr>
-                <td>ישוב מגורים</td>
+                
                 <td>
                     <select name="city" id="city">
                         <option value="other" selected>בחר ישוב מגורים</option>
@@ -147,6 +172,9 @@
                         <option value="דרום">דרום</option>
                     </select>
                 </td>
+
+                <td>ישוב מגורים</td>
+
                 <td>
                     <input type="text" id="mCity" size="50"
                         style="display: none; background-color: silver; font-weight: bold;"
@@ -154,10 +182,13 @@
                 </td>
             </tr>
             <tr>
-                <td>מס' טלפון</td>
+                
                 <td style="direction: ltr; text-align: right;"><span style="color: red;">7 ספרות *</span>
                     <select name="prefix" id="prefix"><%=prfx %></select><input type="text" name="phoneNum" id="phoneNum" />
                 </td>
+
+                <td>מס' טלפון</td>
+
                 <td>
                     <input type="text" id="mPhone" size="30"
                         style="display: none; background-color: silver; font-weight: bold;"
@@ -165,14 +196,21 @@
                 </td>
             </tr>
             <tr>
-                <td>תחביבים</td>
+                
                 <td>
-                    <input type="checkbox" name="hobies" value="1" />כדורגל&nbsp;&nbsp;&nbsp;
-                    <input type="checkbox" name="hobies" value="2" />טניס&nbsp;&nbsp;&nbsp;
-                    <input type="checkbox" name="hobies" value="3" />משחקי מחשב&nbsp;&nbsp;&nbsp;
-                    <input type="checkbox" name="hobies" value="4" />ריקוד&nbsp;&nbsp;&nbsp;
-                    <input type="checkbox" name="hobies" value="5" />אחר&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="hobies" value="1" />כדורגל
+                    <div></div>
+                    <input type="checkbox" name="hobies" value="2" />טניס
+                    <div></div>
+                    <input type="checkbox" name="hobies" value="3" />משחקי מחשב
+                    <div></div>
+                    <input type="checkbox" name="hobies" value="4" />ריקוד
+                    <div></div>
+                    <input type="checkbox" name="hobies" value="5" />אחר
                 </td>
+
+                <td>תחביבים</td>
+
                 <td>
                     <input type="text" id="mHobies" size="30"
                         style="display: none; background-color: silver; font-weight: bold;"
@@ -180,12 +218,15 @@
                 </td>
             </tr>
             <tr>
-                <td>סיסמא</td>
+                
                 <td>
                     <input type="password" name="pw" id="pw" size="10"
                         maxlength="10"/>
                     <span style="color: red;">*6-10 תווים</span>
                 </td>
+
+                <td>סיסמא</td>
+
                 <td>
                     <input type="text" id="mPw" size="30"
                         style="display: none; background-color: silver; color: red; font-weight: bold;"
@@ -193,11 +234,14 @@
                 </td>
             </tr>
             <tr>
-                <td>בדיקת סיסמא</td>
+                
                 <td>
                     <input type="password" name="pw1" id="pw1" size="10"
                         maxlength="10" />
                 </td>
+
+                <td>בדיקת סיסמא</td>
+
                 <td>
                     <input type="text" id="mPw1" size="30"
                         style="display: none; background-color: silver; color: red; font-weight: bold;"

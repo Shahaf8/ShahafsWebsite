@@ -37,7 +37,7 @@ namespace ShahafsWebsite
                     st += "<tr>";
                     st += "<th>שם משתמש</th>\n";
                     st += "<th>שם פרטי</th>\n";
-                    st += "<th>שם משפחה</th>\n";
+                    st += "<th>שם משפחה</th>;
                     st += "<th>דוא'ל</th>\n";
                     st += "<th>שנת לידה</th>\n";
                     st += "<th>מגדר</th>\n";
