@@ -38,7 +38,7 @@
             <tr>
                 <td colspan="2" align="center"></td>
                 <td>
-                    <input type="submit" name="submit" value="  submit  " />
+                    <input type="submit" name="submit" value="  התחבר  " />
                 </td>
             </tr>
         </table>

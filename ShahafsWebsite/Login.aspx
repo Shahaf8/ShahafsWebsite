@@ -4,6 +4,11 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div style="display: table; margin: 0 auto;">
         <h1>כניסת משתמש</h1>
+        <style>
+            h1{
+                text-align: center;
+            }
+        </style>
         <form name="loginFrm" id="loginFrm" method="post" runat="server">
             <br />
             <br>
