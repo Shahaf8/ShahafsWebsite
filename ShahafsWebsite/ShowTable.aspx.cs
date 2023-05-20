@@ -13,15 +13,15 @@ namespace ShahafsWebsite
         public string st = "", msg = "", sqlSelect = "";
         protected void Page_Load(object sender, EventArgs e)
         {
-            //if (Session["admin"].ToString() == "no")
-            //{
-            //    msg += "<div style='text-align: center; color: red;'>";
-            //    msg += "<h3>אינך מנהל! אין לך הרשאה לצפות בדף זה</h3>";
-            //    msg += "<a href= 'Mainpage.aspx'>[המשך]</a>";
-            //    msg += "</div>";
-            //}
-            //else
-            //{
+            if (Session["admin"].ToString() == "no")
+            {
+                msg += "<div style='text-align: center; color: red;'>";
+                msg += "<h3>אינך מנהל! אין לך הרשאה לצפות בדף זה</h3>";
+                msg += "<a href= 'Mainpage.aspx'>[המשך]</a>";
+                msg += "</div>";
+            }
+            else
+            {
                 string tableName = "usersTbl";
 
                 sqlSelect = $"select * from {tableName}";
@@ -59,11 +59,10 @@ namespace ShahafsWebsite
                         st += $"<td class='right'>{table.Rows[i]["fName"]}</td>";
                         //gender,city,hob1,hob2,hob3,hob4,hob5,pw
                         st += $"<td class = 'right'>{table.Rows[i]["lname"]}</td>";
-                        st += $"<td class = 'right'>{table.Rows[i]["lname"]}</td>";
                         st += $"<td class = 'left'>{table.Rows[i]["email"]}</td>";
                         st += $"<td>{table.Rows[i]["yearBorn"]}</td>";
                         st += $"<td>{table.Rows[i]["gender"]}</td>";
-
+                        st += $"<td>{table.Rows[i]["prefix"]}-{table.Rows[i]["phone"]}</td>";
                         st += $"<td class='right'>{table.Rows[i]["city"]}</td>";
                         st += $"<td>{table.Rows[i]["hob1"]}</td>";
                         st += $"<td>{table.Rows[i]["hob2"]}</td>";
@@ -80,4 +79,4 @@ namespace ShahafsWebsite
             }
         }
     }
-//}
+}

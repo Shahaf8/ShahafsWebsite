@@ -16,9 +16,10 @@ namespace ShahafsWebsite
         {
             if (Session["admin"].ToString() == "no")
             {
-                msg += "<div style='text-align: center; color: red;'>";
-                msg += "<h3> אינך מנהל ! אין לך אפשרות לצפות בדף זה</h3>";
-                msg += "<a href='MyFavoriteFootballClub.aspx'>[ המשך ]</a>";
+                   msg += "<div style='text-align: center; color: red;'>";
+                   msg += "<h3>אינך מנהל! אין לך הרשאה לצפות בדף זה</h3>";
+                   msg += "<a href= 'Mainpage.aspx'>[המשך]</a>";
+                   msg += "</div>";
             }
 
             else

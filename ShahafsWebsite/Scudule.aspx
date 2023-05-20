@@ -26,57 +26,89 @@
 
         .safrut {
             background-color: darkkhaki;
+            text-align: center;
+            vertical-align: middle;
         }
 
         .history {
             background-color: lightpink;
+            text-align: center;
+            vertical-align: middle;
         }
 
         .cs {
             background-color: lightgreen;
+            text-align: center;
+            vertical-align: middle;
         }
 
         .bible {
             background-color: #ddaaaa;
+            text-align: center;
+            vertical-align: middle;
         }
 
         .math {
             background-color: orange;
+            text-align: center;
+            vertical-align: middle;
         }
 
         .hebrew {
             background-color: moccasin;
+            text-align: center;
+            vertical-align: middle;
         }
 
         .law {
             background-color: hotpink;
+            text-align: center;
+            vertical-align: middle;
         }
 
         . {
             background-color: lightyellow;
             color:#337ab7
+
         }
         .tab{
             background-color: cornflowerblue;
+            text-align: center;
+            vertical-align: middle;
         }
         .pe{
             background-color: darkslateblue;
+            text-align: center;
+            vertical-align: middle;
         }
         .physics{
             background-color:aquamarine;
+            text-align: center;
+            vertical-align: middle;
         }
         .english{
             background-color:blueviolet;
+            text-align: center;
+            vertical-align: middle;
         }
         .cars{
             background-color:gold;
+            text-align: center;
+            vertical-align: middle;
         }
         .edu{
             background-color:violet;
+            text-align: center;
+            vertical-align: middle;
         }
         .money{
             background-color:tomato;
+            text-align: center;
+            vertical-align: middle;
         }
+        .dayhour {
+            text-align: center;
+            vertical-align: middle;
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -95,73 +127,61 @@
             <td class="dayhour">08:00-08:45</td>
             <td class="safrut" rowspan="1">ספרות</td>
             <td class="money" rowspan="1">חינוך פיננסי</td>
-            <td class="math" rowspan="1">מתמטיקה</td>
+            <td class="math" rowspan="2">מתמטיקה</td>
             <td class="hebrew" rowspan="1">עברית</td>
             <td class="pe" rowspan="1">חינוך גופני</td>
         </tr>
         <tr>
             <td class="dayhour">08:45-09:30</td>
-            <td class="hebrew" rowspan="1">עברית</td>
-            <td class="bible" rowspan="1">תנ"ך</td>
-            <td class="math" rowspan="1">מתמטיקה</td>
+            <td class="hebrew" rowspan="2">עברית</td>
+            <td class="bible" rowspan="2">תנ"ך</td>
             <td class="law" rowspan="1">השכלה כללית-אזרחות</td>
             <td class="history" rowspan="1">היסטוריה</td>
    
         </tr>
         <tr>
             <td class="dayhour">09:45-10:30</td>
-            <td class="hebrew" rowspan="1">עברית</td>
-            <td class="bible" rowspan="1">תנ"ך</td>
-            <td class="english" rowspan="1">אנגלית</td>
-            <td class="physics" rowspan="1">פיסיקה</td>
-            <td class="math" rowspan="1">מתמטיקה</td>
+            <td class="english" rowspan="2">אנגלית</td>
+            <td class="physics" rowspan="2">פיסיקה</td>
+            <td class="math" rowspan="2">מתמטיקה</td>
         </tr>
         <tr>
             <td class="dayhour">10:30-11:10</td>
             <td class="edu" rowspan="1">חינוך/חברה</td>
             <td class="pe" rowspan="1">חינוך גופני</td>
-            <td class="english" rowspan="1">אנגלית</td>
-            <td class="physics" rowspan="1">פיסיקה</td>
-            <td class="math" rowspan="1">מתמטיקה</td>
         </tr>
         <tr>
             <td class="dayhour">11:30-12:15</td>
-            <td class="english" rowspan="1">אנגלית</td>
+            <td class="english" rowspan="2">אנגלית</td>
             <td class="history" rowspan="1">היסטוריה</td>
             <td class="history" rowspan="1">היסטוריה</td>
             <td class="english" rowspan="1">אנגלית</td>
-            <td class="cs" rowspan="1">מדעי המחשב</td>     
+            <td class="cs" rowspan="2">מדעי המחשב</td>     
         </tr>
         <tr>
             <td class="dayhour">12:15-13:00</td>
-            <td class="english" rowspan="1">אנגלית</td>
-            <td class="math" rowspan="1">מתמטיקה</td>
-            <td class="cs" rowspan="1">מדעי המחשב</td>
+            <td class="math" rowspan="2">מתמטיקה</td>
+            <td class="cs" rowspan="2">מדעי המחשב</td>
             <td class="cars" rowspan="1">חינוך תעבורתי</td>
-            <td class="cs" rowspan="1">מדעי המחשב</td>
         </tr>
         <tr>
             <td class="dayhour">13:15-14:00</td>
             <td class="" rowspan="1"></td>
-            <td class="math" rowspan="1">מתמטיקה</td>
-            <td class="cs" rowspan="1">מדעי המחשב</td>
             <td class="safrut" rowspan="1">ספרות</td>
             <td class="" rowspan="1"></td>
         </tr>
         <tr>
             <td class="dayhour">14:00-14:40</td>
             <td class="" rowspan="1"></td>
-            <td class="cs" rowspan="1">מדעי המחשב</td>
+            <td class="cs" rowspan="2">מדעי המחשב</td>
             <td class="" rowspan="1"></td>
-            <td class="tab" rowspan="1">אינטרנט/תב"א</td>
+            <td class="tab" rowspan="3">אינטרנט/תב"א</td>
             <td class="" rowspan="1"></td>
         </tr>
         <tr>
             <td class="dayhour">14:50-15:35</td>
             <td class="" rowspan="1"></td>
-            <td class="cs" rowspan="1">מדעי המחשב</td>
             <td class="" rowspan="1"></td>
-            <td class="tab" rowspan="1">אינטרנט/תב"א</td>
             <td class="" rowspan="1"></td>
         </tr>
         <tr>
@@ -169,7 +189,6 @@
             <td class="" rowspan="1"></td>
             <td class="" rowspan="1"></td>
             <td class="" rowspan="1"></td>
-            <td class="tab" rowspan="1">אינטרנט/תב"א</td>
             <td class="" rowspan="1"></td>
         </tr>
 
