@@ -20,13 +20,13 @@ namespace ShahafsWebsite
         void Session_start(object sender, EventArgs e)
         {
             Session["admin"] = "no";
-            Session["uName"] = "אזרח";
-            Session["userFName"] = "אזרח";
+            Session["uName"] = "אורח";
+            Session["uFName"] = "אורח";
         }
         void Session_End(object sender, EventArgs e)
         {
-            Session["uName"] = "אזרח";
-            Session["userFname"] = "אזרח";
+            Session["uName"] = "אורח";
+            Session["uFname"] = "אורח";
         }
     }
 }
