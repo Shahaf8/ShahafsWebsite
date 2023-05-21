@@ -53,26 +53,25 @@ namespace ShahafsWebsite
                     //--- כל הרשומות מהטבלה הוירטואלית ---
                     for (int i = 0; i < length; i++)
                     {
-                        st += "<tr>";
-                        st += $"<td>{table.Rows[i]["uName"]}</td>";
-                        st += $"<td class='right'>{table.Rows[i]["fName"]}</td>";
-                        //gender,city,hob1,hob2,hob3,hob4,hob5,pw
-                        st += $"<td class = 'right'>{table.Rows[i]["lname"]}</td>";
-                        st += $"<td class = 'right'>{table.Rows[i]["lname"]}</td>";
-                        st += $"<td class = 'left'>{table.Rows[i]["email"]}</td>";
-                        st += $"<td>{table.Rows[i]["yearBorn"]}</td>";
-                        st += $"<td>{table.Rows[i]["gender"]}</td>";
+                    st += "<tr>";
+                    st += $"<td>{table.Rows[i]["uName"]}</td>";
+                    st += $"<td class='right'>{table.Rows[i]["fName"]}</td>";
+                    //gender,city,hob1,hob2,hob3,hob4,hob5,pw
+                    st += $"<td class = 'right'>{table.Rows[i]["lname"]}</td>";
+                    st += $"<td class = 'left'>{table.Rows[i]["email"]}</td>";
+                    st += $"<td>{table.Rows[i]["yearBorn"]}</td>";
+                    st += $"<td>{table.Rows[i]["gender"]}</td>";
+                    st += $"<td>{table.Rows[i]["prefix"]}-{table.Rows[i]["phone"]}</td>";
+                    st += $"<td class='right'>{table.Rows[i]["city"]}</td>";
+                    st += $"<td>{table.Rows[i]["hob1"]}</td>";
+                    st += $"<td>{table.Rows[i]["hob2"]}</td>";
+                    st += $"<td>{table.Rows[i]["hob3"]}</td>";
+                    st += $"<td>{table.Rows[i]["hob4"]}</td>";
+                    st += $"<td>{table.Rows[i]["hob5"]}</td>";
+                    st += $"<td>{table.Rows[i]["pw"]}</td>";
 
-                        st += $"<td class='right'>{table.Rows[i]["city"]}</td>";
-                        st += $"<td>{table.Rows[i]["hob1"]}</td>";
-                        st += $"<td>{table.Rows[i]["hob2"]}</td>";
-                        st += $"<td>{table.Rows[i]["hob3"]}</td>";
-                        st += $"<td>{table.Rows[i]["hob4"]}</td>";
-                        st += $"<td>{table.Rows[i]["hob5"]}</td>";
-                        st += $"<td>{table.Rows[i]["pw"]}</td>";
-
-                        st += "</tr>";
-                    }
+                    st += "</tr>";
+                }
 
                     msg = $"נמצאו  {length} משתמשים";
                 }
