@@ -39,7 +39,7 @@ namespace ShahafsWebsite
             {
                 //temp= Session["uName"].ToString();  
                 //Console.WriteLine(Session["uName"]);
-                mmm = "<li><a href=''  class='btn btn-outline-secondary btn-sm btn-side'>" + Session["uName"].ToString() + "</a></li>";
+                mmm = "<li><a href=''  class='btn btn-outline-secondary btn-sm btn-side'>שלום " + Session["uName"].ToString() + "</a></li>";
                 loginMsg += "<a href='Logout.aspx' class='btn btn-outline-primary btn-sm btn-side'>התנתק</a><br />";
                 loginMsg += "<a href='UpdateUser.aspx'  class='btn btn-outline-secondary btn-sm btn-side'>עדכון פרטים</a><br />";
                 loginMsg += "<a href='LoginAdmin.aspx' class='btn btn-outline-secondary btn-sm btn-side'>התחברות מנהל</a><br />";

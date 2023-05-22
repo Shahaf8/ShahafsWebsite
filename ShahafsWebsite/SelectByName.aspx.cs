@@ -42,11 +42,11 @@ namespace ShahafsWebsite
                     st += "<th>מגדר</th>\n";
                     st += "<th>מספר טלפון</th>\n";
                     st += "<th>עיר</th>\n";
-                    st += "<th>מחשבים</th>\n";
                     st += "<th>כדורגל</th>\n";
-                    st += "<th>מוסיקה</th>\n";
-                    st += "<th>טלוויזיה</th>\n";
-                    st += "<th>סוסים</th>\n";
+                    st += "<th>טניס</th>\n";
+                    st += "<th>משחקי מחשב</th>\n";
+                    st += "<th>ריקוד</th>\n";
+                    st += "<th>אחר</th>\n";
                     st += "<th>סיסמה</th>\n";
                     st += "</tr>";
 

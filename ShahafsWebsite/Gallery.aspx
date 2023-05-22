@@ -29,17 +29,17 @@
 
         <TABLE class ="centerTable">
             <TR>
-                <TD><img class="imgCell" src="https://www.foodnetwork.com/content/dam/images/food/video/1/11/117/1176/11763609.jpg" onMouseover="picShow('pics/p11.jpg')" /></TD>
-                <TD><img class="imgCell" src="https://hips.hearstapps.com/hmg-prod/images/delish-230119-footballspinach-artichokedipbreadsticks-kj-9356-1674525329.jpg?crop=1.00xw:0.755xh;0,0.144xh&resize=1200:*" onMouseover="picShow('pics/p12.jpg')" /></TD>
-                <TD><img class="imgCell" src="https://hips.hearstapps.com/hmg-prod/images/blooming-quesadilla-ring-1674080631.jpeg" onMouseover="picShow('pics/p13.jpg')" /></TD>
-                <TD><img class="imgCell" src="https://www.kal-lehachana.co.il/wp-content/uploads/2019/09/IMG-20190609-WA0161.jpg" onMouseover="picShow('pics/p14.jpg')" /></TD>
+                <TD><img class="imgCell" src="images/11763609%20(2).jpg" onMouseover="picShow('pics/p11.jpg')" /></TD>
+                <TD><img class="imgCell" src="images/Fish.jpg"" onMouseover="picShow('pics/p12.jpg')" /></TD>
+                <TD><img class="imgCell" src="images/food.jpeg" onMouseover="picShow('pics/p13.jpg')" /></TD>
+                <TD><img class="imgCell" src="images/food.jpg" onMouseover="picShow('pics/p14.jpg')" /></TD>
             </TR>
             <TR>
-                <TD><img class="imgCell" src="https://chef-lavan.co.il/wp-content/uploads/old-storage/uploads/images/7491b7ff0e75670d6a3619518b3f4664.jpg" onMouseover="picShow('pics/p21.jpg')" /></TD>
+                <TD><img class="imgCell" src="images/Fishh.webp" onMouseover="picShow('pics/p21.jpg')" /></TD>
                 <TD rowspan = "2" colspan = "2">
                     <img class="bigPicImg" id ="bigPic" src="" />
                 </TD>
-                <TD><img class="imgCell" src="https://realfood.tesco.com/media/images/1400x919-tomato-pasta-6a5a3c8e-f111-490d-805c-9b62fbec8691-0-1400x919.jpg" onMouseover="picShow('pics/p24.jpg')" /></TD>
+                <TD><img class="imgCell" src="images/foody.jpg" onMouseover="picShow('pics/p24.jpg')" /></TD>
             </TR>
             <TR>
                 <TD><img class="imgCell" src="https://d3o5sihylz93ps.cloudfront.net/wp-content/uploads/2020/10/02082712/03_5-1100x733.jpg" onMouseover="picShow('pics/p31.jpg')" /></TD>
