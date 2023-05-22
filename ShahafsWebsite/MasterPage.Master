@@ -137,8 +137,11 @@ nav .menu-btn i{
          <i class="fas fa-bars"></i>
          </label>
          <ul>
+             <%= mmm %>
              <%= (Session["uName"].ToString() != "אורח" || Session["admin"].ToString() == "yes") ? "<li><a href='Logout.aspx'>התנתקות</a></li>":"" %>
-            <li><a href="Scudule.aspx"<% if (Session["admin"].ToString() == "no") { %>style="display: none;"<% } %>>מערכת שעות</a></li>
+            
+             
+             <li><a href="Scudule.aspx"<% if (Session["admin"].ToString() == "no") { %>style="display: none;"<% } %>>מערכת שעות</a></li>
              <li><a href="DeleteUser.aspx" <% if (Session["admin"].ToString() == "no") { %>style="display: none;"<% } %>>מחיקת משתמשים</a></li>
              <li><a href="ShowTable.aspx"<% if (Session["admin"].ToString() == "no") { %>style="display: none;"<% } %>>טבלת משתמשים</a></li>
              <li><a href="LoginAdmin.aspx"<% if (Session["admin"].ToString() == "yes") { %>style="display: none;"<% } %>>כניסת מנהל</a></li>

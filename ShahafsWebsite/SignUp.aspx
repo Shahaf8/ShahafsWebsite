@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="SignUp.aspx.cs" Inherits="ShahafsWebsite.SignUp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
+
         table {
             margin: auto;
             border-collapse: collapse;

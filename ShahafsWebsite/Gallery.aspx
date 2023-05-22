@@ -8,7 +8,9 @@
         .centerTable {display: flex; align-items: center; justify-content: center; height: 100vh;}
 
 
-        <HEAD>
+    </style>
+
+    <HEAD>
         <TITLE>גלרייה בטבלה</TITLE>
         <script language="javascript">
             function picShow(pic) {
@@ -16,9 +18,6 @@
             }
         </script>
     </HEAD>
-
-
-    </style>
 
     
 
@@ -38,7 +37,7 @@
             <TR>
                 <TD><img class="imgCell" src="https://chef-lavan.co.il/wp-content/uploads/old-storage/uploads/images/7491b7ff0e75670d6a3619518b3f4664.jpg" onMouseover="picShow('pics/p21.jpg')" /></TD>
                 <TD rowspan = "2" colspan = "2">
-                    <img class="bigPicImg" id ="bigPic" src="https://www.sruc.ac.uk/media/egzk0gwh/fresh-groceries.jpg?anchor=center&mode=crop&width=1000&height=1000&rnd=132560446748330000" />
+                    <img class="bigPicImg" id ="bigPic" src="" />
                 </TD>
                 <TD><img class="imgCell" src="https://realfood.tesco.com/media/images/1400x919-tomato-pasta-6a5a3c8e-f111-490d-805c-9b62fbec8691-0-1400x919.jpg" onMouseover="picShow('pics/p24.jpg')" /></TD>
             </TR>
