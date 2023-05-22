@@ -18,6 +18,7 @@ namespace ShahafsWebsite
             //--- בניית התפריט האישי לאורח/משתמש/מנהל ---
             if (Session["admin"].ToString() == "yes")
             {
+                mmm = "<li><a href=''  class='btn btn-outline-secondary btn-sm btn-side'>שלום מנהל</a></li>";
                 loginMsg += "<a href='Logout.aspx' class='btn btn-outline-primary btn-sm btn-side p-0'>התנתק</a><br />";
                 loginMsg += "<a href='DeleteUser.aspx' class='btn btn-outline-warning btn-sm btn-side p-0'>מחיקת משתמש</a><br />";
                 loginMsg += "<a href='ComplexQuery.aspx' class='btn btn-outline-primary btn-sm btn-side p-0'>שאילתה דינאמית מורכבת</a><br />";
@@ -29,6 +30,7 @@ namespace ShahafsWebsite
             }
             else if (Session["uName"].ToString() == "אורח")
             {
+                mmm = "<li><a href=''  class='btn btn-outline-secondary btn-sm btn-side'>שלום אורח</a></li>";
                 loginMsg += "<a href='Login.aspx' class='btn btn-outline-primary btn-lg btn-side'>התחבר</a><br />";
                 loginMsg += "<a href='Signup.aspx' class='btn btn-outline-secondary btn-lg btn-side'>רישום</a><br />";
 
