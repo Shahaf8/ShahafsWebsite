@@ -163,6 +163,9 @@
     <Content Include="SimpleQuery.aspx" />
     <Content Include="WebForm3.aspx" />
     <Content Include="images\Fishh.webp" />
+    <Content Include="obj\Shahaf.webp" />
+    <Content Include="images\Chikenn.webp" />
+    <None Include="images\Shahaf.webp" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
