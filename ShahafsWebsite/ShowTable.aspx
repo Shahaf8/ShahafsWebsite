@@ -4,12 +4,14 @@
     <style>
         h1 { text-align: center; color: #d74141; }
         h2 { direction: ltr; text-align: center; }
-        h3 {text-align: center; color: maroon; }
+        h3 {text-align: center; color: maroon; }    
         table, th, td { border: 1px solid black; }
         table { margin: 0px auto; }
         th, td { text-align: center;}
         .right {text-align: right; }
         .left {text-align: left; }
+
+
     </style>
 
 </asp:Content>

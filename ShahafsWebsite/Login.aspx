@@ -7,19 +7,30 @@
         <style>
             h1{
                 text-align: center;
+                color:white;
             }
+
+            td.label{
+                color:white;
+            }
+
+            body{
+            background-image: url('images/Check.jpg');
+            background-size: 2000px;
+        }
+
         </style>
         <form name="loginFrm" id="loginFrm" method="post" runat="server">
             <br />
             <br>
             <table id="tablel" dir="rtl" align="center">
                 <tr>
-                    <td>שם משתמש:</td>
+                    <td class="label">שם משתמש:</td>
                     <td>
                         <input type="text" name="uName" /></td>
                 </tr>
                 <tr>
-                    <td>סיסמא:</td>
+                    <td class="label">סיסמא:</td>
                     <td>
                         <input type="password" name="pw" id="pw" /></td>
                 </tr>

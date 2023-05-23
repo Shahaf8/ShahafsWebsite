@@ -11,7 +11,7 @@
         
             margin-right:30px;
             background-size: 500px;
-            background-image: url('images/CuttingBoardBackground.jfif');
+            background-image: url('https://t3.ftcdn.net/jpg/02/87/67/70/360_F_287677095_bcPwYwvfnS4uhykGUgZZV6WQqAe4S8Vu.jpg');
             
             }
 

@@ -10,6 +10,8 @@
         th, td { text-align: center;}
         .right {text-align: right; }
         .left {text-align: left; }
+}
+
     </style>
 
 </asp:Content>

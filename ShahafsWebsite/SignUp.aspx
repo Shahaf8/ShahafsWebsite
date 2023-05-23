@@ -24,6 +24,11 @@
             width: 15%;
         }
 
+        body{
+            background-image: url('images/Check.jpg');
+            background-size: 2000px;
+        }
+
     </style>
     <script src="Scripts/CheckMyForm.js"></script>
 </asp:Content>
@@ -42,7 +47,7 @@
         }
 
         td, th {
-            border: 1px solid navy;
+            border: 1px solid white;
             text-align: right;
         }
 

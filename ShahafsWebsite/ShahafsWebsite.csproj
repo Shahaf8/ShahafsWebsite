@@ -105,6 +105,7 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="AdminPage.aspx" />
+    <Content Include="ComplexQuery.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -129,8 +130,10 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Hala.aspx" />
     <Content Include="images\11763609 %282%29.jpg" />
+    <Content Include="images\Board.jpeg" />
     <Content Include="images\Check.jpg" />
     <Content Include="images\Check.png" />
+    <Content Include="images\Chickens.jpg" />
     <Content Include="images\Fish.jpg" />
     <Content Include="images\food.jpeg" />
     <Content Include="images\food.jpg" />
@@ -139,9 +142,12 @@
     <Content Include="images\foodoo.jpg" />
     <Content Include="images\foodsd.jpg" />
     <Content Include="images\foody.jpg" />
+    <Content Include="images\Hala.jpg" />
     <Content Include="images\Mushroompashtida.jpg" />
+    <Content Include="images\Pashtida.jpg" />
     <Content Include="images\pashtidat.jpg" />
     <Content Include="images\Pasta.jpg" />
+    <Content Include="images\School.jpg" />
     <Content Include="LoginAdmin.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
@@ -152,6 +158,7 @@
     <Content Include="Recepies.aspx" />
     <Content Include="Pasta.aspx" />
     <Content Include="Scripts\CheckMyForm.js" />
+    <Content Include="Scripts\detectFields.js" />
     <Content Include="Scudule.aspx" />
     <Content Include="SelectByName.aspx" />
     <Content Include="Shakshuka.aspx" />
@@ -162,10 +169,7 @@
     <Content Include="SignUp.aspx" />
     <Content Include="SimpleQuery.aspx" />
     <Content Include="WebForm3.aspx" />
-    <Content Include="images\Fishh.webp" />
     <Content Include="obj\Shahaf.webp" />
-    <Content Include="images\Chikenn.webp" />
-    <None Include="images\Shahaf.webp" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -219,6 +223,13 @@
     </Compile>
     <Compile Include="App_Start\Helper.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="ComplexQuery.aspx.cs">
+      <DependentUpon>ComplexQuery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ComplexQuery.aspx.designer.cs">
+      <DependentUpon>ComplexQuery.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

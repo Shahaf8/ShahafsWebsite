@@ -7,6 +7,7 @@
             text-align: center;
             margin-top: 0;
             padding-top: 20px;
+            color: white;
         }
 
         table {
@@ -16,7 +17,14 @@
 
         td {
             text-align: center;
+            color:white;
         }
+
+        body{
+            background-image: url('images/Check.jpg');
+            background-size: 2000px;
+        }
+
     </style>
     <h1>כניסת מנהל</h1>
     <form name="loginFrm" id="loginFrm" method="post" runat="server">
