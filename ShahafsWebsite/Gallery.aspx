@@ -37,7 +37,7 @@
             <TR>
                 <TD><img class="imgCell" src="images/11763609%20(2).jpg" onMouseover="picShow('images/11763609%20(2).jpg')" /></TD>
                 <TD><img class="imgCell" src="images/Fish.jpg"" onMouseover="picShow('images/Fish.jpg')" /></TD>
-                <TD><img class="imgCell" src="images/food.jpeg" onMouseover="picShow('images/food.jpg')" /></TD>
+                <TD><img class="imgCell" src="images/food.jpeg" onMouseover="picShow('images/food.jpeg')" /></TD>
                 <TD><img class="imgCell" src="images/food.jpg" onMouseover="picShow('images/food.jpg')" /></TD>
             </TR>
             <TR>
@@ -52,7 +52,7 @@
                 <TD><img class="imgCell" src="images/foodd.jpg" onMouseover="picShow('images/foodd.jpg')" /></TD>
             </TR>
             <TR>
-                <TD><img class="imgCell" src="images/Chickens.jpg" onMouseover="picShow('images/Chickens1.jpg')" /></TD>
+                <TD><img class="imgCell" src="images/Chickens.jpg" onMouseover="picShow('images/Chickens.jpg')" /></TD>
                 <TD><img class="imgCell" src="images/foodo.jpg" onMouseover="picShow('images/foodo.jpg')" /></TD>
                 <TD><img class="imgCell" src="images/foodsd.jpg" onMouseover="picShow('images/foodsd.jpg')" /></TD>
                 <TD><img class="imgCell" src="images/foodoo.jpg" onMouseover="picShow('images/foodoo.jpg')" /></TD>
