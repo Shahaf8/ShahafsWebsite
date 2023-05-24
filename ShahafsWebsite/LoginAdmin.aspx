@@ -2,43 +2,36 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <style>
-        h1 {
-            text-align: center;
-            margin-top: 0;
-            padding-top: 20px;
-            color: white;
-        }
+    <div style="display: table; margin: 0 auto;">
+        <h1>כניסת מנהל</h1>
+       <style>
+            h1{
+                text-align: center;
+                color:white;
+            }
 
-        table {
-            margin: 0 auto;
-            margin-top: 20px;
-        }
+            td.label{
+                color:white;
+            }
 
-        td {
-            text-align: center;
-            color:white;
-        }
-
-        body{
+            body{
             background-image: url('images/Check.jpg');
             background-size: 2000px;
         }
 
-    </style>
-    <h1>כניסת מנהל</h1>
+        </style>
     <form name="loginFrm" id="loginFrm" method="post" runat="server">
         <br />
         <br>
         <table id="tablel" dir="rtl" align="center">
             <tr>
-                <td>מנהל:</td>
+                <td class="label">מנהל:</td>
                 <td>
                     <input type="text" name="mName" id="mName" />
                 </td>
             </tr>
             <tr>
-                <td>סיסמא:</td>
+                <td class="label">סיסמא:</td>
                 <td>
                     <input type="password" name="mPw" id="mPw" />
                 </td>
