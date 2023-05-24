@@ -1,89 +1,74 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="ComplexQuery.aspx.cs" Inherits="ShahafsWebsite.ComplexQuery" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
-        h1 {
-            text-align: center;
-            margin-top: 0;
-            padding-top: 20px;
-        }
-
-        table {
-            margin: 0 auto;
-            margin-top: 20px;
-        }
-
-        td {
+        h2 {
+            direction: ltr;
             text-align: center;
         }
     </style>
-    <script src="Scripts/ComplexQuery.js"></script>
+    <script src="Scripts/detectFields.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <br />
-    <center>
-        <h1>הצגת משתמשים רשומים המקיימים  תנאי אחד או שני תנאים</h1>
-        <form id="Form1" method="post" runat="server">
-            <table border ="1">
-            <tr>
-                <td style="width: 20px;">
-        <select name="field1" id="field1" onclick="detectField1();">
-            <option value="lName">שם משתמש</option>
-        <option value="lName">שם משפחה</option>
-        <option value="fName">שם פרטי</option>
-        <option value="email">דוא'ל</option>
-        <option value="gender">מגדר</option>
-        <option value="yearBorn">שנת לידה</option>
-        <option value="prefix">קידומת טלפון</option>
-        <option value="phone">טלפון</option>
-        <option value="hobies">תחביב</option>
-        </select>
+    <h1 style="text-align: center;">הצגת נתונים לפי חתך</h1>
+    <h2 style="text-align: center;"><%= sqlSelect %></h2>
+    <form id="Form1" method="post" runat="server">
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <table border="1" style="margin: 0 auto;">
+                <tr>
+                    <td width="20">
+                        <select name="field1" id="field1" onclick="detectField1();">
+                            <option value="lName">שם משפחה</option>
+                            <option value="fName">שם פרטי</option>
+                            <option value="email">דוא"ל</option>
+                            <option value="gender">מגדר</option>
+                            <option value="yearBorn">שנת לידה</option>
+                            <option value="prefix">קידומת טלפון</option>
+                            <option value="phone">טלפון</option>
+                            <option value="hobies">תחביב</option>
+                        </select>
                     </td>
-               <td style="width: 20px;">
-                   <div id="query1" style="text-align: center;"></div>
-               </td>
-                </tr>
-            <tr>
-                <td colspan="2" style="text-align:center; direction: ltr;">
-                    <input type ="radio" name="op" value="and" checked='checked' />AND
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                     <input type ="radio" name="op" value="or" />OR
-                </td>
-            </tr>
-               <tr>
-                <td style="width: 20px;">
-        <select name="field2" id="field2" onclick="detectField2();">
-             <option value="lName">שם משתמש</option>
-        <option value="lName">שם משפחה</option>
-        <option value="fName">שם פרטי</option>
-        <option value="email">דוא'ל</option>
-        <option value="gender">מגדר</option>
-        <option value="yearBorn">שנת לידה</option>
-        <option value="prefix">קידומת טלפון</option>
-        <option value="phone">טלפון</option>
-        <option value="hobies">תחביב</option>
-        </select>
+                    <td width="150">
+                        <div id="query1" align="center"></div>
                     </td>
-               <td style="width: 150px;">
-                   <div id="query2" style="text-align: center;"></div>
-               </td>
                 </tr>
-            <tr>
-                 <td colspan="2" style="text-align:center;">
-                     <input type="submit" name="submit" value="חפש" />
-                     </td>
-            </tr>
+                <tr>
+                  <td colspan="2" align="center" dir="ltr">
+                      <input type="radio" name="op" value="and" id="andRadio" style="margin-right: 5px;" />
+                     <label for="andRadio" style="margin-right: 2px;">AND</label>
+                     <input type="radio" name="op" value="or" id="orRadio" checked style="margin-left: 2px;" />
+                     <label for="orRadio" style="margin-left: 5px;">OR</label>
+                 </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="field2" id="field2" onclick="detectField2();">
+                            <option value="lName">שם משפחה</option>
+                            <option value="fName">שם פרטי</option>
+                            <option value="email">דוא"ל</option>
+                            <option value="gender">מגדר</option>
+                            <option value="yearBorn">שנת לידה</option>
+                            <option value="prefix">קידומת טלפון</option>
+                            <option value="phone">טלפון</option>
+                            <option value="hobies">תחביב</option>
+                        </select>
+                    </td>
+                    <td width="150">
+                        <div id="query2" align="center"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" name="submit" value="חפש" />
+                    </td>
+                </tr>
             </table>
-        </form>
-         <h2 style="text-align:center;direction: ltr;">
-              <%= sql %>
-         </h2>
-       
-        <table border="1" style=" margin:0px auto;">
-            <%= st %>
-        </table>
+        </div>
+    </form>
 
-        <h3>  <%= msg %></h3>
-    </center>
+    <table style="margin: 0 auto;">
+        <%=st %>
+    </table>
+    <h3 style="text-align: center;"><%=msg %></h3>
 
 </asp:Content>

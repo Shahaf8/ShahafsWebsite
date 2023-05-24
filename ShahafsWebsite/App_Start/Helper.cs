@@ -78,7 +78,7 @@ namespace ShahafsWebsite
 
             SqlDataAdapter tableAdapter = new SqlDataAdapter(sql, conn);
 
-            tableAdapter.Fill(dt);
+            tableAdapter.Fill(dt);  
 
 
             return dt;
