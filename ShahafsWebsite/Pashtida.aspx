@@ -42,7 +42,7 @@
     <b>
         <bold>
     <h2 style="text-align:right">
-        <big>:מצרכים</big>
+        <big>מצרכים:</big>
         </h2>
                  <h3>
                      <div style="text-decoration-line">
