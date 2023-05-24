@@ -17,7 +17,7 @@ namespace ShahafsWebsite
             {
                 msg += "<div style='text-align: center; color: red;'>";
                 msg += "<h3> אינך מנהל ! אין לך אפשרות לצפות בדף זה</h3>";
-                msg += "<a href='MyFavoriteFootballClub.aspx'>[ המשך ]</a>";
+                msg += "<a href='Mainpage.aspx'>[ המשך ]</a>";
             }
 
             else
