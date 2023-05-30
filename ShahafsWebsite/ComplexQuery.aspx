@@ -35,9 +35,9 @@
                 <tr>
                   <td colspan="2" align="center" dir="ltr">
                       <input type="radio" name="op" value="and" id="andRadio" style="margin-right: 5px;" />
-                     <label for="andRadio" style="margin-right: 2px;">AND</label>
+                     <label for="andRadio" style="margin-right: 2px;">OR</label>
                      <input type="radio" name="op" value="or" id="orRadio" checked style="margin-left: 2px;" />
-                     <label for="orRadio" style="margin-left: 5px;">OR</label>
+                     <label for="orRadio" style="margin-left: 5px;">AND</label>
                  </td>
                 </tr>
                 <tr>

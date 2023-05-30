@@ -152,6 +152,7 @@
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
     <Content Include="Mainpage.aspx" />
+    <Content Include="ManagerQuery.aspx" />
     <Content Include="pancake.aspx" />
     <Content Include="MasterPage.Master" />
     <Content Include="Pashtida.aspx" />
@@ -309,6 +310,13 @@
     </Compile>
     <Compile Include="Mainpage.aspx.designer.cs">
       <DependentUpon>Mainpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerQuery.aspx.cs">
+      <DependentUpon>ManagerQuery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManagerQuery.aspx.designer.cs">
+      <DependentUpon>ManagerQuery.aspx</DependentUpon>
     </Compile>
     <Compile Include="pancake.aspx.cs">
       <DependentUpon>pancake.aspx</DependentUpon>

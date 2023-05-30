@@ -142,7 +142,7 @@ nav .menu-btn i{
             
              
              <li><a href="Scudule.aspx"<% if (Session["admin"].ToString() == "no") { %>style="display: none;"<% } %>>מערכת שעות</a></li>
-             <li><a href="ComplexQuery.aspx" <% if (Session["admin"].ToString() == "no") { %>style="display: none;"<% } %>>שאילתה מורכבת</a></li>
+             <li><a href="ManagerQuery.aspx" <% if (Session["admin"].ToString() == "no") { %>style="display: none;"<% } %>>שאילתות</a></li>
              <li><a href="DeleteUser.aspx" <% if (Session["admin"].ToString() == "no") { %>style="display: none;"<% } %>>מחיקת משתמשים</a></li>
              <li><a href="ShowTable.aspx"<% if (Session["admin"].ToString() == "no") { %>style="display: none;"<% } %>>טבלת משתמשים</a></li>
              <li><a href="LoginAdmin.aspx"<% if (Session["admin"].ToString() == "yes") { %>style="display: none;"<% } %>>כניסת מנהל</a></li>
