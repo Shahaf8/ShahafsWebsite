@@ -7,8 +7,14 @@
     }
 
     .bigger {
-        font-size: 20px; /* Adjust the font size as needed */
+        font-size: 20px;
     }
+
+    body{
+            background-image: url('images/Check.jpg');
+            background-size: 2000px;
+        }
+
 </style>
 
 </asp:Content>
@@ -16,8 +22,8 @@
 
     <ul class="center bigger">
         <li><a href="ComplexQuery.aspx" <% if (Session["admin"].ToString() == "no") { %>style="display: none;"<% } %>>שאילתה מורכבת</a></li>
-        <li><a href="SelectGmailAndYears.aspx" <% if (Session["admin"].ToString() == "no") { %>style="display: none;"<% } %>>שאילתה פשוטה</a></li>
-        <li><a href="SelectByName.aspx" <% if (Session["admin"].ToString() == "no") { %>style="display: none;"<% } %>>שאילתה פשוטה</a></li>
+        <li><a href="SelectGmailAndYears.aspx" <% if (Session["admin"].ToString() == "no") { %>style="display: none;"<% } %>>שאילתה של עיר</a></li>
+        <li><a href="SelectByName.aspx" <% if (Session["admin"].ToString() == "no") { %>style="display: none;"<% } %>>שאילתה של שם</a></li>
     </ul>
 
 </asp:Content>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="SelectByName.aspx.cs" Inherits="ShahafsWebsite.SelectGmailAndYears" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="SelectByName.aspx.cs" Inherits="ShahafsWebsite.SelectByName" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
     <style>
