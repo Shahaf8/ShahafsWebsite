@@ -24,6 +24,20 @@
             line-height: 3.5;
             margin-bottom: 10px;
         }
+        .image-container {
+            position: absolute;
+            bottom: 75px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .image-container img {
+            width: 450px;
+            height: 300px;
+            border: 2px solid black;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
         body{
             background-image: url('images/Check.jpg');
             background-size: 2100px;
@@ -44,5 +58,8 @@
             נהוג לצרוב את השקשוקה בתנור או לטגן אותה על מנת להשיג טעם עשיר וקריספי.
         </h3>
     </body>
+    <div class="image-container">
+        <img src="images/Shakshuka2.jpg" alt="My Image" width="400" height="300" />
+    </div>
     <h6><%= msg %></h6>
 </asp:Content>

@@ -118,6 +118,14 @@
     <Content Include="favicon.ico" />
     <Content Include="fish.aspx" />
     <Content Include="Chicken2.aspx" />
+    <Content Include="images\Chicken2.jpg" />
+    <Content Include="images\Fish2.jpg" />
+    <Content Include="images\Hala2.jpg" />
+    <Content Include="images\Panckake2.jpg" />
+    <Content Include="images\Pashtida2.jpg" />
+    <Content Include="images\Pasta2.jpg" />
+    <Content Include="images\Shakshuka2.jpg" />
+    <Content Include="images\Shnizelim2.jpg" />
     <Content Include="panckake2.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Gallery.aspx" />
