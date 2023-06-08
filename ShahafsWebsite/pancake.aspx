@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="pancake.aspx.cs" Inherits="ShahafsWebsite.Ingera" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="pancake.aspx.cs" Inherits="ShahafsWebsite.pancake" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
         h1{

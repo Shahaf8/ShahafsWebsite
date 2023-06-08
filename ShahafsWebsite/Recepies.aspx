@@ -45,58 +45,6 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <html>
-    <body>
-            <div>
-           <h1> <big> מתכוני אוכל </big> </h1>
-                <h2>
-                    <nav style="float:left">
-
-                         <a href="pancake.aspx">פנקייקים</a>
-            <div></div>
-
-        
-            <a href="Pasta.aspx">פסטה</a>
-            <div></div>
-
-        
-            <a href="fish.aspx">דג בתנור</a>
-           <div></div>
-
-       
-            <a href="Chicken.aspx">עוף בתנור</a>
-                        <div></div>
-                    </nav>
-
-                    <nav style="float: right">
-                         
-
-                    <a href="Pashtida.aspx">פשטידת פטריות</a>
-                    <div></div>
-            
-        
-            
-                <a href="Shakshuka.aspx">שקשוקה</a>
-                <div></div>
-  
-     
-            <a href="Hala.aspx">חלות</a>
-            <div></div>
-
-       
-            <a href="Shinezelim.aspx">שניצלים</a>
-                        <div></div>
-                    </nav>
-                </h2>
-                    
-                
-                
- 
-        
-
-
-           
-           
-        
-        </body>
+   <%= msg %>
         </html>
 </asp:Content>

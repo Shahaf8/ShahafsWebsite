@@ -11,7 +11,7 @@ namespace ShahafsWebsite
 {
 
 
-    public partial class pancake
+    public partial class Chiecken2
     {
     }
 }

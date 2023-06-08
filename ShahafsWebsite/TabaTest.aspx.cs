@@ -8,7 +8,7 @@ using System.Web.UI.WebControls;
 
 namespace ShahafsWebsite
 {
-    public partial class SelectByName : System.Web.UI.Page
+    public partial class TabaTest : System.Web.UI.Page
     {
         public string st = "", msg = "", sqlSelect = "";
         protected void Page_Load(object sender, EventArgs e)
@@ -25,7 +25,7 @@ namespace ShahafsWebsite
                 string tableName = "usersTbl";
 
                 sqlSelect = $"select * from {tableName}";
-                sqlSelect += " where fName like N'%א%'";
+                sqlSelect += " where fName like N'%ג%'";
                 DataTable table = Helper.ExecuteDataTable(sqlSelect);
                 int length = table.Rows.Count;
                 if (length == 0)
