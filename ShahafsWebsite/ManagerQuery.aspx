@@ -10,6 +10,10 @@
         font-size: 20px;
     }
 
+    .center a {
+            color: white;
+        }
+
     body{
             background-image: url('images/Check.jpg');
             background-size: 2000px;
